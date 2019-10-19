@@ -1,29 +1,29 @@
 const questions = [
     {
-        question: "Determinado circuito precisa ser alimentado com 60 V e 0,8 A. Dispondo-se de uma fonte de 300 V, deve- se colocar em série com o circuito uma resistência de",
+        question: "O que significa a abreviatura de operação CQ?",
         answers: [
-            { id: 1, text: "12 Ohm" },
-            { id: 2, text: "60 Ohm" } ,
-            { id: 3, text: "300 Ohm" },
-            { id: 4, text: "1,2 kilo Ohm" }
+            { id: 1, text: "Chamada geral a todas as estações", correct: true },
+            { id: 2, text: "Interrupção da emissão em curso" } ,
+            { id: 3, text: "Por favor" },
+            { id: 4, text: "Mensagem" }
         ]
     },
     {
-        question: "Por um circuito resistivo de 120 Ohm circula uma corrente de 0,15 A, quando alimentado por uma tensão de 18 V. Se for alimentado por uma tensão de 36 V, a corrente",
+        question: "Os planos de frequências da IARU",
         answers: [
-            { id: 1, text: "diminui para 0,075 A" },
-            { id: 2, text: "aumenta para 0,300 A", correct: true } ,
-            { id: 3, text: "diminui para 1/4 do valor" },
-            { id: 4, text: "aumenta para 4 vezes o valor" }
+            { id: 1, text: "deverão ser sempre utilizados desde que não colidam com disposições nacionais" , correct: true},
+            { id: 2, text: "deverão ser respeitados sem restrições" } ,
+            { id: 3, text: "constituem apenas uma referência, não sendo obrigatória a sua utilização" },
+            { id: 4, text: "estão a cair em desuso tendo em conta a evolução das radiocomunicações" }
         ]
     },
     {
-        question: "Quatro resistências estão ligadas em série. A tensão aplicada ao conjunto é de 50 V. As quedas de tensão nos terminais das três primeiras são, respetivamente: 25 V, 10 V e 13 V. Qual é a queda de tensão nos terminais da última resistência?",
+        question: "Qual é a base da elaboração dos planos da IARU?",
         answers: [
-            { id: 1, text: "10V" },
-            { id: 2, text: "5V" } ,
-            { id: 3, text: "2V", correct: true },
-            { id: 4, text: "1V" }
+            { id: 1, text: "O Regulamento das Radiocomunicações da UIT", correct: true },
+            { id: 2, text: "As decisões da União Europeia" } ,
+            { id: 3, text: "As recomendações da ARRL" },
+            { id: 4, text: "Um trabalho realizado em 1995 por amadores num grupo de trabalho de gestão de frequências" }
         ]
     }
 ];
