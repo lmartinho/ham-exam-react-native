@@ -1,13 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
-  );
-}
+import QuizIndex from "./App/screens/QuizIndex";
+import Quiz from "./App/screens/Quiz";
 
 const styles = StyleSheet.create({
   container: {
@@ -17,3 +13,25 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+const MainStack = createStackNavigator({
+  QuizIndex: {
+    screen: QuizIndex,
+    navigationOptions: {
+      headerTitle: "Quizzes"
+    }
+  },
+  Quiz: {
+    screen: Quiz,
+    navigationOptions: ({ navigation }) => ({
+      headerTitle: navigation.getParam("title"),
+      headerTintColor: "#fff",
+      headerStyle: {
+        backgroundColor: navigation.getParam("color"),
+        borderBottomColor: navigation.getParam("color")
+      }
+    })
+  }
+});
+
+export default createAppContainer(MainStack);
