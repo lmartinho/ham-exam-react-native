@@ -19,6 +19,9 @@ web-report/
 ## User settings
 ios/xcuserdata/
 
+## CocoaPods
+ios/Pods
+
 # Android Studio
 
 # Built application files
