@@ -18,7 +18,7 @@ const MainStack = createStackNavigator({
   QuizIndex: {
     screen: QuizIndex,
     navigationOptions: {
-      headerTitle: "Quizzes"
+      headerTitle: "Categorias de Amador de Rádio"
     }
   },
   Quiz: {

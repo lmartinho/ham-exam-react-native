@@ -1,9 +1,9 @@
 import React from "react";
 import { ScrollView, StatusBar } from "react-native";
 
-import categoria2Questions from "../data/categoria_2";
-import spaceQuestions from "../data/space";
-import computerQuestions from "../data/computers";
+import category1Questions from "../data/category_1";
+import category2Questions from "../data/category_2";
+import category3Questions from "../data/category_3";
 
 import { RowItem } from "../components/RowItem";
 
@@ -11,12 +11,12 @@ export default ({ navigation }) => (
   <ScrollView>
     <StatusBar barStyle="dark-content" />
     <RowItem
-      name="Space"
+      name="Categoria 1"
       color="#36b1f0"
       onPress={() =>
         navigation.navigate("Quiz", {
-          title: "Space",
-          questions: spaceQuestions,
+          title: "Categoria 1",
+          questions: category1Questions,
           color: "#36b1f0"
         })
       }
@@ -27,18 +27,18 @@ export default ({ navigation }) => (
       onPress={() =>
         navigation.navigate("Quiz", {
           title: "Categoria 2",
-          questions: categoria2Questions,
+          questions: category2Questions,
           color: "#799496"
         })
       }
     />
     <RowItem
-      name="Computers"
+      name="Categoria 3"
       color="#49475B"
       onPress={() =>
         navigation.navigate("Quiz", {
-          title: "Computers",
-          questions: computerQuestions,
+          title: "Categoria 3",
+          questions: category3Questions,
           color: "#49475B"
         })
       }
