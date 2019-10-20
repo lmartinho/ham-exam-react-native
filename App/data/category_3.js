@@ -1,3 +1,7 @@
+/**
+ * Set of questions for the category 3 exam.
+ * @see {@link https://www.anacom.pt/streaming/perguntasCategoria3.pdf?contentId=1383817&field=ATTACHED_FILE} Example questions for the category 3 exam, in pt-PT.
+ */
 const questions = [
     {
         question: "O que significa a abreviatura de operação CQ?",
