@@ -17,10 +17,12 @@ web-report/
 #
 
 ## User settings
-ios/xcuserdata/
 
 ## CocoaPods
 ios/Pods
+
+ios/build
+ios/ExameRadioamador.xcodeproj/project.xcworkspace/xcuserdata/
 
 # Android Studio
 
