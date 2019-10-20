@@ -67,11 +67,29 @@ const questions = [
         ]
     },
     {
-        question: "8 Qual a força eletromotriz de duas baterias de 12 V ligadas em série?",
+        question: "Qual a força eletromotriz de duas baterias de 12 V ligadas em série?",
         answers: [
             { id: 1, text: "6 V" },
             { id: 1, text: "12 V" },
             { id: 1, text: "24 V" },
+            { id: 1, text: "Nenhuma das respostas está correta" },
+        ]
+    },
+    {
+        question: "Teoricamente, num circuito de corrente contínua, poderemos afirmar que a corrente de curto-circuito é",
+        answers: [
+            { id: 1, text: "infinita", correct: true },
+            { id: 1, text: "nula" },
+            { id: 1, text: "sempre igual a 1 Ampère" },
+            { id: 1, text: "igual à corrente de circuito aberto" },
+        ]
+    },
+    {
+        question: "Qual das situações deveremos evitar ou ter cuidados especiais?",
+        answers: [
+            { id: 1, text: "Ligação de fontes de tensão em série", correct: true },
+            { id: 1, text: "Ligação de fontes de tensão em paralelo" },
+            { id: 1, text: "Manutenção de fontes de tensão em vazio" },
             { id: 1, text: "Nenhuma das respostas está correta" },
         ]
     }
