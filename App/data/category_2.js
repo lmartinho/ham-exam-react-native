@@ -278,7 +278,7 @@ const questions = [
         answers: [
             { id: 1, text: "± 2,5 kHz" },
             { id: 2, text: "± 5,0 kHz" },
-            { id: 3, text: "± 10 kHz" },
+            { id: 3, text: "± 10 kHz", correct: true },
             { id: 4, text: "± 20 kHz" },
         ]
     }
