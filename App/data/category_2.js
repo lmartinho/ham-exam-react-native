@@ -101,6 +101,15 @@ const questions = [
             { id: 3, text: "Watt" },
             { id: 4, text: "Volt" }
         ]
+    },
+    {
+        question: "A intensidade do campo elétrico",
+        answers: [
+            { id: 1, text: "cresce com a raiz quadrada da distância" },
+            { id: 2, text: "decresce com a raiz quadrada da distância" },
+            { id: 3, text: "decresce com o quadrado da distância", correct: true },
+            { id: 4, text: "cresce com o quadrado da distância" }
+        ]
     }
 ];
 
