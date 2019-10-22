@@ -92,6 +92,15 @@ const questions = [
             { id: 3, text: "Manutenção de fontes de tensão em vazio" },
             { id: 4, text: "Nenhuma das respostas está correta", correct: true },
         ]
+    },
+    {
+        question: "A intensidade de campo elétrico é expressa em",
+        answers: [
+            { id: 1, text: "metro" },
+            { id: 2, text: "Volt por metro", correct: true },
+            { id: 3, text: "Watt" },
+            { id: 4, text: "Volt" }
+        ]
     }
 ];
 
