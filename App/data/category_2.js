@@ -79,9 +79,9 @@ const questions = [
         question: "Teoricamente, num circuito de corrente contínua, poderemos afirmar que a corrente de curto-circuito é",
         answers: [
             { id: 1, text: "infinita", correct: true },
-            { id: 1, text: "nula" },
-            { id: 1, text: "sempre igual a 1 Ampère" },
-            { id: 1, text: "igual à corrente de circuito aberto" },
+            { id: 2, text: "nula" },
+            { id: 3, text: "sempre igual a 1 Ampère" },
+            { id: 4, text: "igual à corrente de circuito aberto" },
         ]
     },
     {
