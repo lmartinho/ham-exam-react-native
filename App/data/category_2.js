@@ -70,9 +70,9 @@ const questions = [
         question: "Qual a força eletromotriz de duas baterias de 12 V ligadas em série?",
         answers: [
             { id: 1, text: "6 V" },
-            { id: 1, text: "12 V" },
-            { id: 1, text: "24 V" },
-            { id: 1, text: "Nenhuma das respostas está correta" },
+            { id: 2, text: "12 V" },
+            { id: 3, text: "24 V", correct: true },
+            { id: 4, text: "Nenhuma das respostas está correta" },
         ]
     },
     {
