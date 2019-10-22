@@ -110,6 +110,177 @@ const questions = [
             { id: 3, text: "decresce com o quadrado da distância", correct: true },
             { id: 4, text: "cresce com o quadrado da distância" }
         ]
+    },
+    {
+        question: "Uma corrente a passar num condutor cria na sua proximidade",
+        answers: [
+            { id: 1, text: "um campo elétrico" },
+            { id: 2, text: "um campo magnético", correct: true },
+            { id: 3, text: "uma corrente elétrica" },
+            { id: 4, text: "uma região luminosa" }
+        ]
+    },
+    {
+        question: "O que é o campo magnético?",
+        answers: [
+            { id: 1, text: "É um campo, numa dada região do espaço, onde se manifesta a ação do efeito gravitacional" },
+            { id: 2, text: "É um campo numa dada região do espaço, onde se manifesta a ação de uma carga elétrica estática" },
+            { id: 3, text: "É um campo, numa dada região do espaço, onde se manifesta a ação de cargas elétricas em movimento num condutor", correct: true },
+            { id: 4, text: "É um campo, numa dada região do espaço, tendo necessariamente ar, onde se manifesta a ação de fontes de luz coerente" }
+        ]
+    },
+    {
+        question: "Qual das afirmações está correta?",
+        answers: [
+            { id: 1, text: "Uma carga positiva estática produz um campo magnético em que as linhas de força do campo são concêntricas" },
+            { id: 2, text: "Um condutor onde flui uma corrente elétrica não produz qualquer campo magnético, a menos que esteja imerso numa substância líquida" },
+            { id: 3, text: "As linhas do campo magnético, de um condutor onde flui uma corrente elétrica, são perpendiculares ao condutor", correct: true },
+            { id: 4, text: "As linhas do campo magnético de um condutor onde flui uma corrente elétrica formam círculos concêntricos ao redor do condutor" }
+        ]
+    },
+    {
+        question: "Qual a frequência cujo comprimento de onda é 14,117 m?",
+        answers: [
+            { id: 1, text: "14,117 MHz" },
+            { id: 2, text: "28,234 MHz" },
+            { id: 3, text: "21,250 MHz", correct: true },
+            { id: 4, text: "7,000 MHz" },
+        ]
+    },
+    {
+        question: "O comprimento de onda da frequência de 25 MHz é",
+        answers: [
+            { id: 1, text: "10 m" },
+            { id: 2, text: "12 m", correct: true },
+            { id: 3, text: "15 m" },
+            { id: 4, text: "18 m" }
+        ]
+    },
+    {
+        question: "Qual das seguintes características não está associada às ondas eletromagnéticas?",
+        answers: [
+            { id: 1, text: "Polarização" },
+            { id: 2, text: "Amplitude" },
+            { id: 3, text: "Frequência" },
+            { id: 4, text: "Temperatura", correct: true }
+        ]
+    },
+    {
+        question: "Qual a unidade de medida de frequência?",
+        answers: [
+            { id: 1, text: "Farad" },
+            { id: 2, text: "Henry" },
+            { id: 3, text: "Hertz", correct: true },
+            { id: 4, text: "Watt" }
+        ]
+    },
+    {
+        question: "Exprima 7,54 MHz em kHz.",
+        answers: [
+            { id: 1, text: "754 kHz" },
+            { id: 2, text: "7 540 kHz", correct: true },
+            { id: 3, text: "0,754 kHz" },
+            { id: 4, text: "0,0754 kHz" }
+        ]
+    },
+    {
+        question: "O período T de uma onda sinusoidal é",
+        answers: [
+            { id: 1, text: "o dobro da sua frequência" },
+            { id: 2, text: "metade da sua frequência" },
+            { id: 3, text: "o inverso da sua frequência", correct: true },
+            { id: 4, text: "o produto da sua frequência pelo seu comprimento de onda" }
+        ]
+    },
+    {
+        question: "O valor eficaz de uma onda sinusoidal com 1 Volt de amplitude máxima é",
+        answers: [
+            { id: 1, text: "0,707 V", correct: true },
+            { id: 2, text: "1,414 V" },
+            { id: 3, text: "0V" },
+            { id: 4, text: "2V" }
+        ]
+    },
+    {
+        question: "A uma determinada frequência f corresponde um determinado período T. Se a frequência duplicar o período",
+        answers: [
+            { id: 1, text: "duplica" },
+            { id: 2, text: "não se altera" },
+            { id: 3, text: "passa para um quarto" },
+            { id: 4, text: "passa para metade", correct: true  }
+        ]
+    },
+    {
+        question: "Se um voltímetro indicar uma tensão de 34 volt r.m.s. na medição de uma onda sinusoidal, qual é aproximadamente a sua tensão de pico?",
+        answers: [
+            { id: 1, text: "123 volt" },
+            { id: 2, text: "96 volt" },
+            { id: 3, text: "55 volt" },
+            { id: 4, text: "48 volt", correct: true }
+        ]
+    },
+    {
+        question: "O período de uma onda sinusoidal exprime-se em",
+        answers: [
+            { id: 1, text: "metros" },
+            { id: 2, text: "segundos", correct: true },
+            { id: 3, text: "Hertz" },
+            { id: 4, text: "metros por segundo" }
+        ]
+    },
+    {
+        question: "Qual das afirmações está correta?",
+        answers: [
+            { id: 1, text: "Uma onda quadrada pode ser representada por um conjunto de ondas sinusoidais", correct: true },
+            { id: 2, text: "Obtém-se a onda sinusoidal fundamental de uma onda quadrada, aplicando um filtro passa-baixo" },
+            { id: 3, text: "As ondas quadradas são fundamentais na representação e processamento dos sinais digitais" },
+            { id: 4, text: "Todas as respostas anteriores estão corretas" }
+        ]
+    },
+    {
+        question: "A frequência de uma onda quadrada expressa-se em",
+        answers: [
+            { id: 1, text: "zeros e uns" },
+            { id: 2, text: "segundos" },
+            { id: 3, text: "Hertz", correct: true },
+            { id: 4, text: "metros" }
+        ]
+    },
+    {
+        question: "O dispositivo que transforma os sinais de voz em sinais elétricos, designa-se por",
+        answers: [
+            { id: 1, text: "microfone", correct: true },
+            { id: 2, text: "amplificador" },
+            { id: 3, text: "auscultador" },
+            { id: 4, text: "misturador" }
+        ]
+    },
+    {
+        question: "Qual é a largura de faixa necessária numa emissão de modulação de frequência em que o desvio de frequência é 25 kHz e a máxima frequência de modulação é 3 kHz?",
+        answers: [
+            { id: 1, text: "22 kHz" },
+            { id: 2, text: "25 kHz" },
+            { id: 3, text: "28 kHz" },
+            { id: 4, text: "56 kHz", correct: true }
+        ]
+    },
+    {
+        question: "Define-se índice de modulação em frequência modulada como a relação entre o",
+        answers: [
+            { id: 1, text: "desvio máximo e a mais alta frequência de modulação", correct: true },
+            { id: 2, text: "desvio mínimo e a mais alta frequência de modulação" },
+            { id: 3, text: "desvio máximo e a mais baixa frequência de modulação" },
+            { id: 4, text: "desvio mínimo e a mais baixa frequência de modulação" }
+        ]
+    },
+    {
+        question: "Num emissor de modulação de frequência, modulado a ± 5 kHz, a segunda harmónica tem o desvio de",
+        answers: [
+            { id: 1, text: "± 2,5 kHz" },
+            { id: 2, text: "± 5,0 kHz" },
+            { id: 3, text: "± 10 kHz" },
+            { id: 4, text: "± 20 kHz" },
+        ]
     }
 ];
 
