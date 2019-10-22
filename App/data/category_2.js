@@ -87,10 +87,10 @@ const questions = [
     {
         question: "Qual das situações deveremos evitar ou ter cuidados especiais?",
         answers: [
-            { id: 1, text: "Ligação de fontes de tensão em série", correct: true },
-            { id: 1, text: "Ligação de fontes de tensão em paralelo" },
-            { id: 1, text: "Manutenção de fontes de tensão em vazio" },
-            { id: 1, text: "Nenhuma das respostas está correta" },
+            { id: 1, text: "Ligação de fontes de tensão em série" },
+            { id: 2, text: "Ligação de fontes de tensão em paralelo" },
+            { id: 3, text: "Manutenção de fontes de tensão em vazio" },
+            { id: 4, text: "Nenhuma das respostas está correta", correct: true },
         ]
     }
 ];
