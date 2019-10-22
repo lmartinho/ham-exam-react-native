@@ -62,7 +62,7 @@ const questions = [
         answers: [
             { id: 1, text: "80 V" },
             { id: 2, text: "90 V" },
-            { id: 3, text: "95 V" },
+            { id: 3, text: "95 V", correct: true },
             { id: 4, text: "100 V"}
         ]
     },
