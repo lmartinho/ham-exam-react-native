@@ -290,6 +290,15 @@ const questions = [
             { id: 3, text: "um amplificador sintonizado em 2610 kHz" },
             { id: 4, text: "um desmodulador de 145 kHz" }
         ]
+    },
+    {
+        question: "Em modulação de amplitude, a que se dá o nome de faixas laterais?",
+        answers: [
+            { id: 1, text: "Ao conjunto de frequências situadas imediatamente abaixo e acima da frequência da portadora e que resultam da soma e da diferença entre a frequência da portadora e de cada uma das frequências que a modulam" },
+            { id: 2, text: "A todas as frequências situadas aos lados da portadora" },
+            { id: 3, text: "Ao conjunto de frequências que modulam a portadora" },
+            { id: 4, text: "A todas as frequências que o recetor possa receber simultaneamente com a portadora" },
+        ]
     }
 ];
 
