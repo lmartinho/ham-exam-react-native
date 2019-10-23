@@ -281,6 +281,15 @@ const questions = [
             { id: 3, text: "± 10 kHz", correct: true },
             { id: 4, text: "± 20 kHz" },
         ]
+    },
+    {
+        question: "Para converter 2610 kHz em 145 kHz é necessário",
+        answers: [
+            { id: 1, text: "um oscilador de 2465 kHz", correct: true },
+            { id: 2, text: "um transformador de 18/1" },
+            { id: 3, text: "um amplificador sintonizado em 2610 kHz" },
+            { id: 4, text: "um desmodulador de 145 kHz" }
+        ]
     }
 ];
 
