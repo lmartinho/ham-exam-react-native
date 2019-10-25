@@ -398,6 +398,15 @@ const questions = [
             { id: 3, text: "pode ser desconhecida, sem inconveniente" },
             { id: 4, text: "só pode ser medida nos Centros de Monitorização e Controlo do Espectro da ANACOM" }
         ]
+    },
+    {
+        question: "Uma emissão em dupla faixa lateral é",
+        answers: [
+            { id: 1, text: "uma emissão em modulação de frequência" },
+            { id: 2, text: "uma emissão em modulação de fase" },
+            { id: 3, text: "uma emissão em modulação de amplitude", correct: true },
+            { id: 4, text: "uma emissão em qualquer tipo de modulação" }
+        ]
     }
 ];
 
