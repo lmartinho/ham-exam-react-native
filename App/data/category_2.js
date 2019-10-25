@@ -362,6 +362,42 @@ const questions = [
             { id: 3, text: "mais ruído se nota no recetor e maior é a faixa de frequências ocupada" },
             { id: 4, text: "mais ruído se nota no recetor e menor é a faixa de frequências ocupada" }
         ]
+    },
+    {
+        question: "Uma modulação de faixa lateral única, ou SSB, é um tipo de modulação",
+        answers: [
+            { id: 1, text: "de frequência" },
+            { id: 2, text: "de amplitude", correct: true },
+            { id: 3, text: "de fase kHz" },
+            { id: 4, text: "outro tipo" }
+        ]
+    },
+    {
+        question: "Na transmissão utilizando modulação em faixa lateral única, ou SSB, com portadora suprimida",
+        answers: [
+            { id: 1, text: "a portadora é transmitida" },
+            { id: 2, text: "a maior potência é consumida pela portadora" },
+            { id: 3, text: "a desmodulação é mais simples do que na modulação em dupla faixa lateral ou DSB" },
+            { id: 4, text: "há uma maior economia do espectro", correct: true }
+        ]
+    },
+    {
+        question: "No âmbito das radiocomunicações o que significa a sigla CW?",
+        answers: [
+            { id: 1, text: "Capacitive Wiring" },
+            { id: 2, text: "Condensador de Watt" },
+            { id: 3, text: "Continuous Wave", correct: true },
+            { id: 4, text: "Coil in Water" }
+        ]
+    },
+    {
+        question: "A largura de faixa ocupada por uma emissão",
+        answers: [
+            { id: 1, text: "é sempre menor que a largura de faixa necessária para essa emissão" },
+            { id: 2, text: "não engloba todas as frequências radiadas pelo emissor", correct: true },
+            { id: 3, text: "pode ser desconhecida, sem inconveniente" },
+            { id: 4, text: "só pode ser medida nos Centros de Monitorização e Controlo do Espectro da ANACOM" }
+        ]
     }
 ];
 
