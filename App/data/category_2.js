@@ -407,6 +407,61 @@ const questions = [
             { id: 3, text: "uma emissão em modulação de amplitude", correct: true },
             { id: 4, text: "uma emissão em qualquer tipo de modulação" }
         ]
+    },
+    {
+        question: "Qual das seguintes afirmações é verdadeira no que respeita à modulação de voz em banda lateral única?",
+        answers: [
+            { id: 1, text: "É um tipo de modulação em amplitude que suprime uma banda lateral e a portadora", correct: true },
+            { id: 2, text: "É um tipo de modulação em amplitude que enfatiza as frequências mais elevadas" },
+            { id: 3, text: "Reconstitui o sinal nas frequências elevadas com maior eficiência do que nas frequências baixas" },
+            { id: 4, text: "É o único tipo de modulação de voz autorizado para operar em faixas HF entre os 14 e 30 MHz" }
+        ]
+    },
+    {
+        question: "Como se designa o processo de alteração do ângulo de fase de uma onda de RF para transmissão de informação?",
+        answers: [
+            { id: 1, text: "Convolução de fase" },
+            { id: 2, text: "Modulação de fase", correct: true },
+            { id: 3, text: "Convolução de ângulo" },
+            { id: 4, text: "Inversão de radianos" }
+        ]
+    },
+    {
+        question: "Que tipo de transmissão provoca variação do nível instantâneo de potência do sinal de RF para transmissão de informação?",
+        answers: [
+            { id: 1, text: "Modulação por pulsos codificados" },
+            { id: 2, text: "Modulação de fase" },
+            { id: 3, text: "Modulação de frequência" },
+            // Modulates the amplitude of the carrier thus affect signal power
+            { id: 4, text: "Modulação de amplitude", correct: true }
+        ]
+    },
+    {
+        question: "Qual das seguintes emissões de fonia usa uma largura de banda mais estreita?",
+        answers: [
+            { id: 1, text: "Banda lateral única", correct: true },
+            { id: 2, text: "Banda lateral dupla" },
+            { id: 3, text: "Modulação de fase" },
+            { id: 4, text: "Modulação de frequência" }
+        ]
+    },
+    {
+        question: "Qual é o índice de modulação de um sinal de fonia FM com um desvio máximo da portadora de ± 6kHz, quando modulada com uma frequência de modulação de 2kHz?",
+        answers: [
+            { id: 1, text: "6000" },
+            { id: 2, text: "3", correct: true },
+            { id: 3, text: "2000" },
+            { id: 4, text: "12" }
+        ]
+    },
+    {
+        question: "Qual a potência associada a um sinal sinusoidal que faz passar uma corrente eficaz de 2 A numa resistência de 10 Ohm?",
+        answers: [
+            { id: 1, text: "20 W" },
+            { id: 2, text: "5 W" },
+            { id: 3, text: "40 W", correct: true },
+            { id: 4, text: "200 W" }
+        ]
     }
 ];
 
