@@ -353,6 +353,15 @@ const questions = [
             { id: 3, text: "22,5 kHz" },
             { id: 4, text: "25 kHz" }
         ]
+    },
+    {
+        question: "Em modulação de frequência, quanto maior é o desvio de frequência",
+        answers: [
+            { id: 1, text: "menos ruído se nota no recetor e maior é a faixa de frequências ocupada", correct: true },
+            { id: 2, text: "menos ruído se nota no recetor e menor é a faixa de frequências ocupada" },
+            { id: 3, text: "mais ruído se nota no recetor e maior é a faixa de frequências ocupada" },
+            { id: 4, text: "mais ruído se nota no recetor e menor é a faixa de frequências ocupada" }
+        ]
     }
 ];
 
