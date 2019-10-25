@@ -308,6 +308,51 @@ const questions = [
             { id: 3, text: "Ao dobro da tolerância de frequência permitida regulamentarmente" },
             { id: 4, text: "Ao número de kHz que a frequência da portadora se afasta do seu valor nominal devido à falta de estabilidade do oscilador, na ausência de modulação" },
         ]
+    },
+    {
+        question: "Qual é um dos inconvenientes da sobremodulação?",
+        answers: [
+            { id: 1, text: "Produz um aumento significativo da potência aparente do emissor" },
+            { id: 2, text: "Provoca o aumento da largura de faixa ocupada pela emissão, o que poderá originar interferências na receção dos canais adjacentes", correct: true },
+            { id: 3, text: "Produz uma emissão em faixa mais estreita" },
+            { id: 4, text: "Provoca uma saturação na antena do emissor" }
+        ]
+    },
+    {
+        question: "Numa emissão em AM, a maior parte da potência é usada para transmitir",
+        answers: [
+            { id: 1, text: "a banda lateral inferior" },
+            { id: 2, text: "a banda lateral superior" },
+            { id: 3, text: "as duas bandas laterais" },
+            { id: 4, text: "a portadora", correct: true }
+        ]
+    },
+    {
+        question: "Uma desvantagem da receção em AM em relação à receção em FM é",
+        answers: [
+            { id: 1, text: "a menor largura de faixa utilizada" },
+            { id: 2, text: "a maior sensibilidade aos ruídos interferentes", correct: true },
+            { id: 3, text: "a menor estabilidade" },
+            { id: 4, text: "o maior consumo de energia" }
+        ]
+    },
+    {
+        question: "Numa comunicação em AM, transmite-se",
+        answers: [
+            { id: 1, text: "somente a faixa lateral inferior" },
+            { id: 2, text: "somente a faixa lateral superior" },
+            { id: 3, text: "somente as duas faixas laterais" },
+            { id: 4, text: "somente a portadora e as duas faixas laterais", correct: true }
+        ]
+    },
+    {
+        question: "Em modulação de frequência nas faixas de UHF com espaçamento entre canais de 25 kHz, a largura de faixa necessária em geral para uma emissão radiofónica é de",
+        answers: [
+            { id: 1, text: "500 Hz" },
+            { id: 2, text: "16 kHz", correct: true },
+            { id: 3, text: "22,5 kHz" },
+            { id: 4, text: "25 kHz" }
+        ]
     }
 ];
 
