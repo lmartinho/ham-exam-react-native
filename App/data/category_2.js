@@ -477,10 +477,123 @@ const questions = [
         answers: [
             { id: 1, text: "Um amplificador é tanto mais eficiente quanto maior potência conseguir debitar numa carga de 50 Ohm" },
             { id: 2, text: "Um amplificador é tanto mais eficiente quanto menor for a entrada para um dado sinal de saída" },
-            { id: 3, text: "Um amplificador é tanto mais eficiente quanto menor for o consumo para uma dada potência de saída" },
+            { id: 3, text: "Um amplificador é tanto mais eficiente quanto menor for o consumo para uma dada potência de saída", correct: true },
             { id: 4, text: "Um amplificador é tanto mais eficiente quanto maior for o consumo para uma dada potência de saída" }
         ]
-    }
+    },
+    {
+        question: "Um aumento de potência para o dobro ou a redução da mesma para metade resulta na variação de quantos dB?",
+        answers: [
+            { id: 1, text: "2 dB" },
+            { id: 2, text: "3 dB", correct: true },
+            { id: 3, text: "6 dB" },
+            { id: 4, text: "12 dB" }
+        ]
+    },
+    {
+        question: "O sinal na entrada de um amplificador é de 1 V rms e à saída de 10 V rms. Este amplificador tem um ganho de",
+        answers: [
+            { id: 1, text: "3 dB" },
+            { id: 2, text: "6 dB" },
+            { id: 3, text: "10 dB", correct: true },
+            { id: 4, text: "20 dB" }
+        ]
+    },
+    {
+        question: "Dois amplificadores com ganhos de 10 dB e de 40 dB estão ligados em cascata. O ganho do conjunto é de",
+        answers: [
+            { id: 1, text: "8 dB" },
+            { id: 2, text: "30 dB" },
+            { id: 3, text: "50 dB", correct: true },
+            { id: 4, text: "400 dB" }
+        ]
+    },
+    {
+        question: "Qual a resistência total de duas resistências de 12,5 Ohm cada, quando ligadas em série?",
+        answers: [
+            { id: 1, text: "12,5 Ohm" },
+            { id: 2, text: "25 Ohm", correct: true },
+            { id: 3, text: "50 Ohm" },
+            { id: 4, text: "37,5 Ohm" }
+        ]
+    },
+    {
+        question: "A associação que resulta numa resistência equivalente de 600 Ohm é a série das seguintes resistências",
+        answers: [
+            { id: 1, text: "100 Ohm, 80 Ohm, 20 Ohm" },
+            { id: 2, text: "200 Ohm, 150 Ohm, 50 Ohm" },
+            { id: 3, text: "200 Ohm, 200 Ohm, 200 Ohm", correct: true },
+            { id: 4, text: "600 Ohm, 600 Ohm, 600 Ohm" }
+        ]
+    },
+    {
+        question: "Para obter uma resistência equivalente de 62,5 Ohm é necessário associar",
+        answers: [
+            { id: 1, text: "3 resistências de 10 Ohm em série" },
+            { id: 2, text: "4 resistências de 250 Ohm em paralelo", correct: true },
+            { id: 3, text: "5 resistências de 200 Ohm em série" },
+            { id: 4, text: "10 resistências de 10 Ohm em paralelo" },
+        ],
+        explanation: "1/62,5 = (1/R)*N. 1/62,5 = N/R. R/N = 62,5. 250/4 = 62,5"
+    },
+    {
+        question: "Se duas resistências de igual valor, estão associadas em paralelo, a resistência total será",
+        answers: [
+            { id: 1, text: "de igual valor" },
+            { id: 2, text: "o dobro do valor de cada uma delas" },
+            { id: 3, text: "metade de cada uma delas", correct: true },
+            { id: 4, text: "um quarto do valor de cada uma delas" },
+        ],
+        explanation: "1/Req = 1/R + 1/R. 1/Req = 2/R. Req = R/2"
+    },
+    {
+        question: "A resistência equivalente a uma associação de 10 resistências de 100 Ohm cada uma, em paralelo, é de",
+        answers: [
+            { id: 1, text: "1 Ohm" },
+            { id: 2, text: "10 Ohm", correct: true },
+            { id: 3, text: "12,5 Ohm" },
+            { id: 4, text: "25 Ohm" },
+        ],
+        explanation: "1/Req = (1/R) * 10. 1/Req = 10/R. Req = R/10"
+    },
+    {
+        question: "Aplicando um sinal sinusoidal a uma resistência ideal",
+        answers: [
+            { id: 1, text: "a corrente está em avanço relativamente à tensão" },
+            { id: 2, text: "a tensão está em avanço relativamente à corrente" },
+            { id: 3, text: "a tensão e a corrente estão em oposição de fase" },
+            { id: 4, text: "a tensão e a corrente estão em fase", correct: true },
+        ]
+    },
+    {
+        question: "Qual a unidade de medida da capacidade?",
+        answers: [
+            { id: 1, text: "Farad", correct: true },
+            { id: 2, text: "Henry" },
+            { id: 3, text: "Hertz" },
+            { id: 4, text: "Volt" },
+        ],
+        explanation: "Farad para capacidade. Henry para indutância. Hertz para frequência. Volt para força electromotriz."
+    },
+    {
+        question: "Qual das igualdades é verdadeira?",
+        answers: [
+            { id: 1, text: "0,01 F = 10 000 pF" },
+            { id: 2, text: "0,01 mF = 10 000 pF" },
+            { id: 3, text: "0,01 μF = 10 000 pF", correct: true },
+            { id: 4, text: "0,01 nF = 10 000 pF" },
+        ],
+        explanation: "pico é 10^-12. 10 000 * 10^-12 = 0,01 * 10^-6. 10^-6 = micro"
+    },
+    {
+        question: "Numa associação de condensadores em paralelo, a capacidade resultante é igual",
+        answers: [
+            { id: 1, text: "ao produto das capacidades" },
+            { id: 2, text: "à soma das capacidades" },
+            { id: 3, text: "à diferença entre a capacidade maior e a menor" },
+            { id: 4, text: "ao quociente da capacidade maior pela capacidade menor" },
+        ]
+    },
 ];
 
 export default questions;
