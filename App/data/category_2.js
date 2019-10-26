@@ -462,6 +462,24 @@ const questions = [
             { id: 3, text: "40 W", correct: true },
             { id: 4, text: "200 W" }
         ]
+    },
+    {
+        question: "Por precaução teve que se pôr um atenuador de 10 dB entre um pré-amplificador e um amplificador. Sabendo que o valor máximo na saída do pré-amplificador é de 50 W, qual a potência máxima à entrada do amplificador?",
+        answers: [
+            { id: 1, text: "60 W" },
+            { id: 2, text: "10 W" },
+            { id: 3, text: "1 W" },
+            { id: 4, text: "5 W", correct: true }
+        ]
+    },
+    {
+        question: "Qual das seguintes frases é verdadeira?",
+        answers: [
+            { id: 1, text: "Um amplificador é tanto mais eficiente quanto maior potência conseguir debitar numa carga de 50 Ohm" },
+            { id: 2, text: "Um amplificador é tanto mais eficiente quanto menor for a entrada para um dado sinal de saída" },
+            { id: 3, text: "Um amplificador é tanto mais eficiente quanto menor for o consumo para uma dada potência de saída" },
+            { id: 4, text: "Um amplificador é tanto mais eficiente quanto maior for o consumo para uma dada potência de saída" }
+        ]
     }
 ];
 
