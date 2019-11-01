@@ -589,11 +589,49 @@ const questions = [
         question: "Numa associação de condensadores em paralelo, a capacidade resultante é igual",
         answers: [
             { id: 1, text: "ao produto das capacidades" },
-            { id: 2, text: "à soma das capacidades" },
+            { id: 2, text: "à soma das capacidades", correct: true },
             { id: 3, text: "à diferença entre a capacidade maior e a menor" },
             { id: 4, text: "ao quociente da capacidade maior pela capacidade menor" },
         ]
     },
+    {
+        question: "Qual a vantagem de um condensador eletrolítico?",
+        answers: [
+            { id: 1, text: "Elevada precisão" },
+            { id: 2, text: "Não ter polaridade" },
+            { id: 3, text: "Capacidade elevada para um volume determinado", correct: true },
+            { id: 4, text: "Condensador RF de custo reduzido" },
+        ]
+    },
+    {
+        question: "Como se comporta um condensador num circuito de corrente contínua?",
+        answers: [
+            { id: 1, text: "Apresenta elevada autoindução" },
+            { id: 2, text: "Apresenta uma baixa resistência" },
+            { id: 3, text: "Comporta-se como um curto-circuito" },
+            { id: 4, text: "Comporta-se como um circuito aberto", correct: true },
+        ],
+        explanation: "Depois de carregar, um condensador impede o fluxo adicional de electrões"
+    },
+    {
+        question: "Qual a unidade de medida do coeficiente de autoindução?",
+        answers: [
+            { id: 1, text: "Farad" },
+            { id: 2, text: "Henry", correct: true },
+            { id: 3, text: "Hertz" },
+            { id: 4, text: "Volt" },
+        ]
+    },
+    {
+        question: "Como se comporta uma bobina num circuito de corrente contínua?",
+        answers: [
+            { id: 1, text: "Apresenta elevadas capacidades parasitas" },
+            { id: 2, text: "Apresenta uma elevada resistência" },
+            { id: 3, text: "Comporta-se como um curto-circuito" },
+            { id: 4, text: "Comporta-se como um circuito aberto" },
+        ]
+    },
+    
 ];
 
 export default questions;
