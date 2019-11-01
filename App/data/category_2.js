@@ -627,11 +627,19 @@ const questions = [
         answers: [
             { id: 1, text: "Apresenta elevadas capacidades parasitas" },
             { id: 2, text: "Apresenta uma elevada resistência" },
-            { id: 3, text: "Comporta-se como um curto-circuito" },
+            { id: 3, text: "Comporta-se como um curto-circuito", correct: true },
             { id: 4, text: "Comporta-se como um circuito aberto" },
         ]
     },
-    
+    {
+        question: "Qual das igualdades é verdadeira?",
+        answers: [
+            { id: 1, text: "1 μH = 0,001 H" },
+            { id: 2, text: "1 mH = 0,001 H", correct: true },
+            { id: 3, text: "1 nH = 0,000 000 1 H" },
+            { id: 4, text: "1 μH = 0,001 H" },
+        ]
+    },
 ];
 
 export default questions;
