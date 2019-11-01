@@ -640,6 +640,51 @@ const questions = [
             { id: 4, text: "1 μH = 0,001 H" },
         ]
     },
+    {
+        question: "Qual das afirmações é verdadeira?",
+        answers: [
+            { id: 1, text: "Os transformadores transformam corrente contínua em corrente alternada" },
+            { id: 2, text: "Os transformadores transformam corrente alternada em corrente contínua" },
+            { id: 3, text: "As frequências dos sinais no primário e no secundário dum transformador são iguais", correct: true },
+            { id: 4, text: "Os transformadores são utilizados fundamentalmente para transformar uma tensão contínua dum dado valor numa tensão contínua de valor mais elevado" },
+        ]
+    },
+    {
+        question: "Um transformador com o primário ligado à rede elétrica, apresenta nos terminais do secundário em vazio o valor de 5,2 V",
+        answers: [
+            { id: 1, text: "de tensão contínua" },
+            { id: 2, text: "de tensão alternada", correct: true },
+            { id: 3, text: "de tensão retificada" },
+            { id: 4, text: "de tensão retificada em apenas metade do período" },
+        ]
+    },
+    {
+        question: "Qual das seguintes afirmações é verdadeira?",
+        answers: [
+            { id: 1, text: "Um transformador é constituído em geral por dois enrolamentos, separados galvanicamente,aos quais se dão os nomes de primário e secundário", correct: true },
+            { id: 2, text: "Os transformadores só são utilizados em frequências acima de 1 kHz" },
+            { id: 3, text: "Um transformador além de transformar tensões e correntes contínuas, também é utilizado em aplicações de transformação de impedâncias" },
+            { id: 4, text: "Os transformadores só são utilizados em frequências abaixo de 5 Hz" },
+        ]
+    },
+    {
+        question: "Qual razão para a existência de tensão no secundário de um transformador quando está ligada uma fonte de tensão alternada ao primário do transformador?",
+        answers: [
+            { id: 1, text: "Acoplamento capacitivo" },
+            { id: 2, text: "Acoplamento através de corrente dielétrica" },
+            { id: 3, text: "Indutância mútua", correct: true },
+            { id: 4, text: "Capacidade mútua" },
+        ]
+    },
+    {
+        question: "Um díodo de junção é constituído por",
+        answers: [
+            { id: 1, text: "uma junção entre duas substâncias semicondutoras" },
+            { id: 2, text: "uma junção entre duas substâncias condutoras" },
+            { id: 3, text: "uma junção entre duas substâncias isolantes" },
+            { id: 4, text: "uma junção entre uma substância condutora e outra semicondutora" },
+        ]
+    },
 ];
 
 export default questions;
