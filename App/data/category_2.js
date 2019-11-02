@@ -679,12 +679,39 @@ const questions = [
     {
         question: "Um díodo de junção é constituído por",
         answers: [
-            { id: 1, text: "uma junção entre duas substâncias semicondutoras" },
+            { id: 1, text: "uma junção entre duas substâncias semicondutoras", correct: true },
             { id: 2, text: "uma junção entre duas substâncias condutoras" },
             { id: 3, text: "uma junção entre duas substâncias isolantes" },
             { id: 4, text: "uma junção entre uma substância condutora e outra semicondutora" },
         ]
     },
+    {
+        question: "Num díodo de junção, chama-se tensão de Zener",
+        answers: [
+            { id: 1, text: "à tensão de polarização direta máxima" },
+            { id: 2, text: "a qualquer valor de tensão alternada aplicada ao díodo" },
+            { id: 3, text: "ao valor de tensão inversa que produz um aumento significativo da corrente inversa", correct: true },
+            { id: 4, text: "à tensão de saturação" },
+        ]
+    },
+    {
+        question: "Os portadores maioritários num material tipo P são",
+        answers: [
+            { id: 1, text: "as lacunas", correct: true },
+            { id: 2, text: "os eletrões" },
+            { id: 3, text: "os neutrões" },
+            { id: 4, text: "os fotões" },
+        ]
+    },
+    {
+        question: "No díodo apresentado na figura, o valor da máxima tensão inversa é aproximadamente",
+        answers: [
+            { id: 1, text: "0V" },
+            { id: 2, text: "70V" },
+            { id: 3, text: "100V" },
+            { id: 4, text: "141V" },
+        ]
+    }
 ];
 
 export default questions;
