@@ -709,7 +709,17 @@ const questions = [
             { id: 1, text: "0V" },
             { id: 2, text: "70V" },
             { id: 3, text: "100V" },
-            { id: 4, text: "141V" },
+            { id: 4, text: "141V", correct: true },
+        ],
+        explanation: "Um díodo em polarização inversa vai oferecer resistência infinita, logo a tensão entre os seus terminais sera o máximo da fonte de tensão, ou seja para 100 V rms 100 V / raiz quadrada de 2 ou, aproximadamente, 141V"
+    },
+    {
+        question: "Na figura, identifique o símbolo que representa o díodo Zener:",
+        answers: [
+            { id: 1, text: "D1" },
+            { id: 2, text: "D2" },
+            { id: 3, text: "D3" },
+            { id: 4, text: "D4", correct: true },
         ]
     }
 ];
