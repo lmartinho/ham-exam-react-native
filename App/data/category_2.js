@@ -720,8 +720,96 @@ const questions = [
             { id: 2, text: "D2" },
             { id: 3, text: "D3" },
             { id: 4, text: "D4", correct: true },
+        ],
+        // @TODO: Add image
+        image: ""
+    },
+    {
+        question: "Os díodos de junção não ideais quando polarizados diretamente têm tipicamente uma queda de tensão aos seus terminais",
+        answers: [
+            { id: 1, text: "entre -2 V e -1 V" },
+            { id: 2, text: " entre -1 V e 0 V" },
+            { id: 3, text: "entre 0 V e 1 V", correct: true },
+            { id: 4, text: "entre 1 V e 2 V" },
+        ],
+        // @TODO: Add image
+        image: "",
+        explanation: "Reduzida impedência implica voltagem reduzida também. Examinando uma datasheet de um díodo também verificamos que é algo entre 0 V e 1 V, quando polarizado diretamente."
+    },
+    {
+        question: "Uma ponte retificadora é constituída duma forma geral por",
+        answers: [
+            { id: 1, text: "resistências" },
+            { id: 2, text: "condensadores e transístores" },
+            { id: 3, text: "termístores" },
+            { id: 4, text: "díodos", correct: true },
         ]
-    }
+    },
+    {
+        question: "Um transístor PNP pode ser formado por",
+        answers: [
+            { id: 1, text: "duas lâminas muito finas de germânio de tipo N que envolvem uma lâmina espessa de germânio de tipo P" },
+            { id: 2, text: "uma lâmina muito fina de germânio de tipo N colocada entre duas lâminas espessas de germânio de tipo P", correct: true },
+            { id: 3, text: "um material emissor de eletrões e de protões" },
+            { id: 4, text: "um emissor e uma base, podendo ter ou não ter coletor" },
+        ]
+    },
+    {
+        question: "Na figura, identifique o terminal base",
+        answers: [
+            { id: 1, text: "A", correct: true },
+            { id: 2, text: "B" },
+            { id: 3, text: "C" },
+            { id: 4, text: "Não há base" },
+        ]
+    },
+    {
+        question: "Na figura, a que terminais correspondem as letras indicadas no seguinte transístor:",
+        answers: [
+            { id: 1, text: "A - emissor, B - base e C - coletor" },
+            { id: 2, text: "A - base, B - coletor e C - emissor" },
+            { id: 3, text: "A - base, B - emissor e C - coletor", correct: true },
+            { id: 4, text: "A - coletor, B - emissor e C - base" },
+        ],
+        // @TODO: Add image
+        image: ""
+    },
+    {
+        question: "Os circuitos com transístores podem ser utilizados como",
+        answers: [
+            { id: 1, text: "amplificadores" },
+            { id: 2, text: "comutadores" },
+            { id: 3, text: "osciladores" },
+            { id: 4, text: "Todas as hipóteses estão corretas" },
+        ]
+    },
+    {
+        question: "Duma forma geral considera-se que os transístores de junção bipolar têm as seguintes três zonas de funcionamento:",
+        answers: [
+            { id: 1, text: "inversa, corte e saturação" },
+            { id: 2, text: "inversa, ativa e saturação" },
+            { id: 3, text: "corte, ativa e saturação", correct: true },
+            { id: 4, text: "ativa, saturação e inversa" },
+        ]
+    },
+    {
+        question: "Em que zona de funcionamento deverá trabalhar um transístor de junção bipolar que é o único elemento ativo num circuito amplificador?",
+        answers: [
+            { id: 1, text: "Na zona ativa", correct: true },
+            { id: 2, text: "Na zona de corte" },
+            { id: 3, text: "Na zona de saturação" },
+            { id: 4, text: "Na zona inversa de saturação" },
+        ]
+    },
+    {
+        question: "A polarização de um transístor corresponde",
+        answers: [
+            { id: 1, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona ativa" },
+            { id: 2, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona de corte" },
+            { id: 3, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona de corte" },
+            { id: 4, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona ativa" },
+        ]
+    },
 ];
 
 export default questions;
