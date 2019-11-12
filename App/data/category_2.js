@@ -805,9 +805,63 @@ const questions = [
         question: "A polarização de um transístor corresponde",
         answers: [
             { id: 1, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona ativa" },
-            { id: 2, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona de corte" },
+            { id: 2, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona de corte"},
             { id: 3, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona de corte" },
-            { id: 4, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona ativa" },
+            { id: 4, text: "à determinação das tensões e correntes contínuas (DC) que garantem o  funcionamento do transístor na zona ativa", correct: true },
+        ]
+    },
+    {
+        question: "Uma montagem de emissor comum, devidamente polarizada para garantir o funcionamento do transístor exclusivamente na zona ativa",
+        answers: [
+            { id: 1, text: "duma forma geral, inverte e amplifica o sinal de entrada", correct: true },
+            { id: 2, text: "duma forma geral, não possui qualquer ganho" },
+            { id: 3, text: "duma forma geral, comporta-se da mesma forma que um seguidor de emissor" },
+            { id: 4, text: "duma forma geral, reduz ligeiramente o sinal de entrada, mantendo a fase" },
+        ]
+    },
+    {
+        question: "Um tétrodo possui",
+        answers: [
+            { id: 1, text: "3 elementos" },
+            { id: 2, text: "4 elementos", correct: true },
+            { id: 3, text: "5 elementos" },
+            { id: 4, text: "6 elementos" },
+        ]
+    },
+    {
+        question: "Porque é que as válvulas têm vindo a perder terreno relativamente aos elementos designados como de estado sólido (por exemplo transístores), na eletrónica em geral?",
+        answers: [
+            { id: 1, text: "Devido à pouca linearidade das válvulas quando utilizadas em amplificadores de áudio" },
+            { id: 2, text: "Pelo facto dos dispositivos a válvulas serem extremamente perigosos" },
+            { id: 3, text: "Devido ao menor tamanho dos dispositivos de estado sólido", correct: true },
+            { id: 4, text: "Todas as respostas estão corretas" },
+        ]
+    },
+    {
+        question: "Os amplificadores sintonizados",
+        answers: [
+            { id: 1, text: "possuem circuitos ressonantes na entrada e na saída" },
+            { id: 2, text: "são úteis para a amplificação de sinais em banda estreita" },
+            { id: 3, text: "apresentam uma resposta tipicamente passa-banda", correct: true },
+            { id: 4, text: "Todas as hipóteses estão corretas" },
+        ]
+    },
+    {
+        question: "Um filtro passa baixo destina-se",
+        answers: [
+            { id: 1, text: "a rejeitar as frequências mais baixas" },
+            { id: 2, text: "a rejeitar as frequências mais altas", correct: true },
+            { id: 3, text: "a rejeitar as frequências mais baixas e as frequências mais altas, deixando passar uma dada gama de frequências" },
+            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências" },
+        ]
+    },
+    {
+        question: "Um filtro rejeita banda destina-se",
+        answers: [
+            { id: 1, text: "a rejeitar as frequências mais baixas" },
+            { id: 2, text: "a rejeitar as frequências mais altas" },
+            { id: 3, text: "a rejeitar as frequências mais baixas e as frequências mais altas, deixando passar uma dada gama de frequências" },
+            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências", correct: true },
         ]
     },
 ];
