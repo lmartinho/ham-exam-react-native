@@ -864,6 +864,52 @@ const questions = [
             { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências", correct: true },
         ]
     },
+    {
+        question: "Se num circuito se quiser filtrar as harmónicas de um dado sinal, deve-se utilizar",
+        answers: [
+            { id: 1, text: "um filtro passa alto" },
+            { id: 2, text: "um filtro passa baixo", correct: true },
+            { id: 3, text: "um filtro passa banda" },
+            { id: 4, text: "um filtro rejeita banda" },
+        ]
+    },
+    {
+        question: "Numa fonte de alimentação não comutada com transformador, a introdução de um díodo em série entre o secundário do transformador e um circuito de carga",
+        answers: [
+            { id: 1, text: "faz uma retificação de meia onda que não é adequada se o circuito de carga necessitar de uma tensão contínua", correct: true },
+            { id: 2, text: "faz uma retificação de onda completa que não é adequada se o circuito de carga necessitar de uma tensão contínua" },
+            { id: 3, text: "faz uma retificação de um quarto de onda que não é adequada se o circuito de carga necessitar de uma tensão contínua" },
+            { id: 4, text: "não provoca qualquer efeito, não sendo adequada se o circuito de carga necessitar de uma tensão contínua" },
+        ]
+    },
+    {
+        question: "É possível fazer uma retificação de onda completa a partir de um sinal de corrente alternada, proveniente de um transformador, só com dois díodos?",
+        answers: [
+            { id: 1, text: "Não, pois só uma ponte retificadora o permite fazer" },
+            { id: 2, text: "Sim, se no secundário se tiver acesso a uma tomada central", correct: true },
+            { id: 3, text: " Não, pois precisa-se pelo menos de um transístor" },
+            { id: 4, text: "Sim se se tiver também uma resistência em série com cada um dos díodos" },
+        ]
+    },
+    {
+        question: "Uma ponte retificadora efetua",
+        answers: [
+            { id: 1, text: "uma retificação de um oitavo de onda" },
+            { id: 2, text: "uma retificação de um quarto de onda" },
+            { id: 3, text: "uma retificação de meia onda" },
+            { id: 4, text: "uma retificação de onda completa", correct: true },
+        ]
+    },
+    {
+        question: "Um condensador ligado ao secundário de um transformador, usado para absorver picos de tensão de curta duração, designa-se",
+        answers: [
+            { id: 1, text: "condensador retificador" },
+            { id: 2, text: "condensador de ajuste" },
+            { id: 3, text: "condensador \"feedback\" de picos" },
+            { id: 4, text: "condensador supressor de picos", correct: true },
+        ],
+        explanation: "Retificador é o circuito que mantem a polarização constante. Não há resultados no Google para condensador de ajuste nem feedback de picos. Supressor de picos parece-me fazer sentido, mas tenho dúvidas."
+    },
 ];
 
 export default questions;
