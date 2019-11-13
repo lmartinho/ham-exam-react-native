@@ -910,6 +910,51 @@ const questions = [
         ],
         explanation: "Retificador é o circuito que mantem a polarização constante. Não há resultados no Google para condensador de ajuste nem feedback de picos. Supressor de picos parece-me fazer sentido, mas tenho dúvidas."
     },
+    {
+        question: "Qual o fator de segurança que oferece uma resistência de drenagem da fonte de alimentação?",
+        answers: [
+            { id: 1, text: "Funciona como fusível da tensão em excesso" },
+            { id: 2, text: "Descarrega o condensador de filtragem", correct: true },
+            { id: 3, text: "Exclui os riscos de choques produzidos pelas bobinas de indução" },
+            { id: 4, text: "Elimina a corrente do \"loop\" de terra" },
+        ]
+    },
+    {
+        question: "Se num amplificador de emissor à massa, a corrente no coletor for de 45 mA e a corrente na base 1,5 mA, qual é o ganho de corrente em regime contínuo?",
+        answers: [
+            { id: 1, text: "43,5" },
+            { id: 2, text: "30", correct: true },
+            { id: 3, text: "46,5" },
+            { id: 4, text: "40" },
+        ]
+    },
+    {
+        question: "Diz-se que há amplificação de tensão",
+        answers: [
+            { id: 1, text: "se a um certo valor de tensão alternada aplicado à entrada de um circuito, corresponde uma tensão, também alternada mas de maior amplitude, na saída do mesmo circuito", correct: true },
+            { id: 2, text: "se a um certo valor de tensão contínua aplicado à entrada de um circuito, corresponde uma tensão alternada na saída do mesmo circuito" },
+            { id: 3, text: "se a um certo valor de tensão alternada aplicado à entrada de um circuito, corresponde uma tensão contínua na saída do mesmo circuito" },
+            { id: 4, text: "se uma tensão de audiofrequência aplicada à entrada de um circuito, corresponde uma tensão de radiofrequência na saída do mesmo circuito" },
+        ]
+    },
+    {
+        question: "Uma corrente de 20 mA circula entre a base e o emissor de um transístor que apresenta um ganho de 40. Em consequência, entre coletor e emissor circula uma corrente de",
+        answers: [
+            { id: 1, text: "0,5 mA" },
+            { id: 2, text: "2 mA" },
+            { id: 3, text: "40 mA" },
+            { id: 4, text: "0,8 A", correct: true },
+        ]
+    },
+    {
+        question: "Qual das seguintes opções descreve um amplificador linear?",
+        answers: [
+            { id: 1, text: "Um amplificador que transforma sinais AC em sinais DC" },
+            { id: 2, text: "Um amplificador cuja saída mantém a forma de onda de entrada", correct: true },
+            { id: 3, text: "Um amplificador de classe C de elevada eficiência" },
+            { id: 4, text: "Um amplificador usado como multiplicador de frequências" },
+        ]
+    },
 ];
 
 export default questions;
