@@ -955,6 +955,61 @@ const questions = [
             { id: 4, text: "Um amplificador usado como multiplicador de frequências" },
         ]
     },
+    {
+        question: "Que circuito é usado para processar os sinais provenientes do amplificador de RF e do oscilador local e que depois os envia para o filtro de IF num recetor super-heterodino?",
+        answers: [
+            { id: 1, text: "Modulador balanceado" },
+            { id: 2, text: "Amplificador de IF" },
+            { id: 3, text: "Misturador", correct: true },
+            { id: 4, text: "Detetor" },
+        ]
+    },
+    {
+        question: "Que tipo de recetor é apropriado para a receção de CW ou de SSB mas que não necessita de um andar de mistura ou de um amplificador de IF?",
+        answers: [
+            { id: 1, text: "Um recetor super-regenerativo" },
+            { id: 2, text: "Um recetor do tipo TRF (\"Tuned Radio Frequency\")", correct: true },
+            { id: 3, text: "Um recetor super-heterodino" },
+            { id: 4, text: "Um recetor de conversão direta" },
+        ],
+        explanation: "Analisado diagrama de blocos de um recetor TRF vemos que não existe andar de mistura, nem IF. O amplificador é de banda base"
+    },
+    {
+        question: "Como se pode designar em alternativa a mistura de dois sinais de RF?",
+        answers: [
+            { id: 1, text: "Heterodinagem", correct: true },
+            { id: 2, text: "Sintetização" },
+            { id: 3, text: "Cancelamento" },
+            { id: 4, text: "Filtragem" },
+        ]
+    },
+    {
+        question: "Os recetores de CW estão associados a que tipo de modulação?",
+        answers: [
+            { id: 1, text: "A1A", correct: true },
+            { id: 2, text: "A3E" },
+            { id: 3, text: "J3E" },
+            { id: 4, text: "F3E" },
+        ]
+    },
+    {
+        question: "Os recetores de FM estão associados a que tipo de modulação?",
+        answers: [
+            { id: 1, text: "A1A" },
+            { id: 2, text: "A3E" },
+            { id: 3, text: "J3E" },
+            { id: 4, text: "F3E" },
+        ]
+    },
+    {
+        question: "Num recetor de FM, qual a função do circuito designado como discriminador?",
+        answers: [
+            { id: 1, text: "É um circuito gerador de sinais de FM" },
+            { id: 2, text: "É um circuito que filtra dois sinais adjacentes muito próximos" },
+            { id: 3, text: "É um circuito com comutação de bandas automático" },
+            { id: 4, text: "É um circuito de deteção de sinais FM", correct: true },
+        ]
+    },
 ];
 
 export default questions;
