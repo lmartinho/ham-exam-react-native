@@ -1010,6 +1010,79 @@ const questions = [
             { id: 4, text: "É um circuito de deteção de sinais FM", correct: true },
         ]
     },
+    {
+        question: "Que parte de um recetor combina um sinal de entrada de 14,250 MHz com um sinal de um oscilador local de 13,795 MHz, para produzir um sinal de frequência intermédia de 455 kHz?",
+        answers: [
+            { id: 1, text: "Misturador", correct: true },
+            { id: 2, text: "BFO" },
+            { id: 3, text: "VFO" },
+            { id: 4, text: "Multiplicador" },
+        ]
+    },
+    {
+        question: "Quanto é que a potência de um emissor tem que reduzir para que num recetor distante a leitura do indicador de nível (unidades S) mude de S9 para S8?",
+        answers: [
+            { id: 1, text: "Aproximadamente 5 vezes" },
+            { id: 2, text: "Aproximadamente 4 vezes", correct: true },
+            { id: 3, text: "Aproximadamente 3 vezes" },
+            { id: 4, text: "Aproximadamente 2 vezes" },
+        ]
+    },
+    {
+        question: "Onde se encontra de uma forma geral o \"squelch\"?",
+        answers: [
+            { id: 1, text: "No emissor" },
+            { id: 2, text: "Numa ponte de SWR" },
+            { id: 3, text: "No recetor", correct: true },
+            { id: 4, text: "Numa ponte de díodos" },
+        ]
+    },
+    {
+        question: "O  que mede o medidor S?",
+        answers: [
+            { id: 1, text: "Condutância" },
+            { id: 2, text: "Impedância" },
+            { id: 3, text: "Intensidade do sinal recebido", correct: true },
+            { id: 4, text: "Potência do transmissor" },
+        ]
+    },
+    {
+        question: "Num recetor, como funciona um detetor de díodo?",
+        answers: [
+            { id: 1, text: "Pela retificação e filtragem de sinais de RF", correct: true },
+            { id: 2, text: "Pela rutura da tensão de Zener" },
+            { id: 3, text: "Pela mistura de sinais com ruído na zona de transição do díodo" },
+            { id: 4, text: "Pela verificação da variação da reactância no díodo em relação à frequência" },
+        ]
+    },
+    {
+        question: "Num recetor super-heterodino, o andar designado como \"misturador\"",
+        answers: [
+            { id: 1, text: "combina sinais de duas frequências diferentes para obter uma frequência intermédia", correct: true },
+            { id: 2, text: "combina as bandas laterais de modo a obter um sinal mais forte" },
+            { id: 3, text: "faz a discriminação contra os sinais SSB e AM" },
+            { id: 4, text: "insere uma portadora para obter um verdadeiro sinal FM" },
+        ]
+    },
+    {
+        question: "Num recetor super-heterodino, o BFO é um",
+        answers: [
+            { id: 1, text: "atenuador de frequências desnecessárias" },
+            { id: 2, text: "oscilador de frequências básicas" },
+            { id: 3, text: "oscilador de frequência de batimento", correct: true },
+            { id: 4, text: "oscilador da banda de filtragem" },
+        ],
+        explanation: "Beat Frequency Oscillator serve para criar um sinal de frequência audio a partir de transmissões radiotelegráficas."
+    },
+    {
+        question: "Num recetor de FM, o andar designado por \"limitador\"",
+        answers: [
+            { id: 1, text: "limita o sinal a uma amplitude constante" },
+            { id: 2, text: "rejeita sinais SSB e CW" },
+            { id: 3, text: "limita o desvio de frequência do sinal" },
+            { id: 4, text: "limita o desvio de fase do sinal" },
+        ]
+    },
 ];
 
 export default questions;
