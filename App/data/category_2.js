@@ -1077,12 +1077,103 @@ const questions = [
     {
         question: "Num recetor de FM, o andar designado por \"limitador\"",
         answers: [
-            { id: 1, text: "limita o sinal a uma amplitude constante" },
+            { id: 1, text: "limita o sinal a uma amplitude constante", correct: true },
             { id: 2, text: "rejeita sinais SSB e CW" },
             { id: 3, text: "limita o desvio de frequência do sinal" },
             { id: 4, text: "limita o desvio de fase do sinal" },
         ]
     },
+    {
+        question: "Que circuito é usado para combinar os sinais do oscilador de portadora e do amplificador de voz e enviar o resultado para o filtro num emissor de banda lateral única de fonia?",
+        answers: [
+            { id: 1, text: "Misturador" },
+            { id: 2, text: "Detetor" },
+            { id: 3, text: "Amplificador de IF" },
+            { id: 4, text: "Modulador balanceado", correct: true },
+        ]
+    },
+    {
+        question: "Uma malha de captura de fase que contém um oscilador controlado por tensão, está associada a um modulador de",
+        answers: [
+            { id: 1, text: "amplitude" },
+            { id: 2, text: "frequência", correct: true },
+            { id: 3, text: "amplitude com portadora suprimida" },
+            { id: 4, text: "onda contínua" },
+        ]
+    },
+    {
+        question: "O sinal na saída de um emissor de modulação de frequência resulta",
+        answers: [
+            { id: 1, text: "da variação da amplitude da portadora em função do sinal que a modula" },
+            { id: 2, text: "da variação da frequência da portadora em função do sinal que a modula", correct: true },
+            { id: 3, text: "da variação da fase da portadora em função do sinal que a modula" },
+            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" },
+        ]
+    },
+    {
+        question: "O sinal na saída de um emissor de modulação de amplitude resulta",
+        answers: [
+            { id: 1, text: "da variação da amplitude da portadora em função do sinal que a modula", correct: true },
+            { id: 2, text: "da variação da frequência da portadora em função do sinal que a modula" },
+            { id: 3, text: "da variação da fase da portadora em função do sinal que a modula" },
+            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" },
+        ]
+    },
+    {
+        question: "Num emissor, onde deve ser instalado um filtro para reduzir emissões espúrias?",
+        answers: [
+            { id: 1, text: "Na fonte de alimentação" },
+            { id: 2, text: "No recetor" },
+            { id: 3, text: "A seguir ao andar de saída do emissor", correct: true },
+            { id: 4, text: "No microfone" },
+        ],
+        explanation: "A fase final de um circuito de amplificação de RF alimenta um filtro-passa baixo que atenua harmónicas da portadora e sinais espúrios"
+    },
+    {
+        question: "O que é um \"buffer\"?",
+        answers: [
+            { id: 1, text: "É um circuito que, de uma forma geral, serve de amplificador", correct: true },
+            { id: 2, text: "É um circuito que, de ma forma geral, serve de fonte de alimentação" },
+            { id: 3, text: "É um circuito que, de uma forma geral, serve de isolador" },
+            { id: 4, text: "É um circuito que, de uma forma geral, serve de filtro" },
+        ]
+    },
+    {
+        question: "No emissor o que é VFO?",
+        answers: [
+            { id: 1, text: "É um oscilador de frequência áudio" },
+            { id: 2, text: "É um oscilador fixo controlado por um \"varicap\"" },
+            { id: 3, text: "É um oscilador de fase virtual" },
+            { id: 4, text: "É um oscilador de frequência variável", correct: true },
+        ]
+    },
+    {
+        question: "Qual das seguintes afirmações descreve uma vantagem de uma fonte de alimentação comutada relativamente a uma fonte linear convencional?",
+        answers: [
+            { id: 1, text: "O facto de utilizar uma frequência de comutação elevada permite maiores tensões na saída" },
+            { id: 2, text: "Necessita de menos circuitos e componentes" },
+            { id: 3, text: "A utilização de altas frequências de comutação permite a utilização de componentes mais pequenos", correct: true },
+            { id: 4, text: "Todas as afirmações anteriores estão corretas" },
+        ]
+    },
+    {
+        question: "Qual é a vantagem de um emissor controlado a cristal?",
+        answers: [
+            { id: 1, text: "Frequência de saída estável", correct: true },
+            { id: 2, text: "Excelente clareza na modulação" },
+            { id: 3, text: "Facilidade na mudança de faixas de frequências" },
+            { id: 4, text: "Facilidade na mudança de frequência" },
+        ]
+    },
+    {
+        question: "Qual das seguintes emissões utiliza, duma forma geral, menor largura de banda?",
+        answers: [
+            { id: 1, text: "Banda lateral única", correct: true },
+            { id: 2, text: "Modulação de frequência" },
+            { id: 3, text: "Dupla banda lateral" },
+            { id: 4, text: "Modulação de fase" },
+        ]
+    }
 ];
 
 export default questions;
