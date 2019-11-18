@@ -1173,7 +1173,53 @@ const questions = [
             { id: 3, text: "Dupla banda lateral" },
             { id: 4, text: "Modulação de fase" },
         ]
-    }
+    },
+    {
+        question: "O que acontece ao sinal de um emissor de banda lateral única de fonia se estiver sobremodulado?",
+        answers: [
+            { id: 1, text: "O áudio será mais alto sem quaisquer outros efeitos" },
+            { id: 2, text: "Ocupará menos largura de banda com uma resposta mais pobre às altas frequências" },
+            { id: 3, text: "Maior fidelidade e melhoria na relação sinal-ruído" },
+            { id: 4, text: "Ficará distorcido e terá uma maior largura de banda", correct: true },
+        ]
+    },
+    {
+        question: "A diferença entre a potência de entrada de RF e a potência de alimentação por um lado e a potência RF de saída de um emissor por outro",
+        answers: [
+            { id: 1, text: "é emitida pela antena" },
+            { id: 2, text: "é dissipada como calor", correct: true },
+            { id: 3, text: "é perdida na alimentação da antena" },
+            { id: 4, text: "deve-se às correntes oscilantes" },
+        ],
+        explanation: "1 e 3 não fazem sentido, porque isto acontece antes da linha de alimentação da antena. A 4 também não faz muito sentido, pela que a dissipação sob a forma de calor é o que parece fazer mais sentido. Analisando teoricamente o Yaesu FT-817 parece que para emitir 5W consome mais perto de 13.8 V * 2 A = 27.6 W. Comparando com um teste no YouTube: https://www.youtube.com/watch?v=u_u1ss3GXcI, o valor parece ser 26.22 W de entrada para 5.37 W."
+    },
+    {
+        question: "Por que razão não se deve usar a modulação de frequência em fonia abaixo dos 29,5 MHz?",
+        answers: [
+            { id: 1, text: "A eficiência do transmissor é reduzida para este modo" },
+            { id: 2, text: "Não é possível atenuar os sinais harmónicos a níveis práticos" },
+            { id: 3, text: "A largura de banda excederia os limites de largura de banda regulamentares", correct: true },
+            { id: 4, text: "A estabilidade da frequência não seria apropriada" },
+        ]
+    },
+    {
+        question: "Qual a impedância de saída ideal de um emissor que se vai ligar a um cabo de alimentação de uma antena, se o referido cabo tiver uma impedância de entrada 50 Ohm?",
+        answers: [
+            { id: 1, text: "100 Ohm" },
+            { id: 2, text: "50 Ohm", correct: true },
+            { id: 3, text: "Nula" },
+            { id: 4, text: "Infinita" },
+        ]
+    },
+    {
+        question: "Onde se poderão consultar, de forma segura e universalmente aceite, as definições de emissões espúrias e de emissões harmónicas?",
+        answers: [
+            { id: 1, text: "No Regulamento das Radiocomunicações da UIT", correct: true },
+            { id: 2, text: "Em qualquer sítio da internet" },
+            { id: 3, text: "Nos manuais de comunicações nacionais" },
+            { id: 4, text: "Nos manuais de eletrónica" },
+        ]
+    },
 ];
 
 export default questions;
