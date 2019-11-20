@@ -1220,6 +1220,250 @@ const questions = [
             { id: 4, text: "Nos manuais de eletrónica" },
         ]
     },
+    {
+        question: "Qual o ganho teórico de um dipolo de meia onda relativamente a uma antena isotrópica?",
+        answers: [
+            { id: 1, text: "1,55" },
+            { id: 2, text: "3,05" },
+            { id: 3, text: "2,15", correct: true },
+            { id: 4, text: "4,3" },
+        ]
+    },
+    {
+        question: "A potência aparente radiada (p.a.r.) emitida por uma antena de 10 dBd de ganho (no máximo do seu diagrama de radiação) quando lhe é entregue uma potência de 20 dBW é",
+        answers: [
+            { id: 1, text: "200 dBW"},
+            { id: 2, text: "30 dBW", correct: true },
+            { id: 3, text: "30 W" },
+            { id: 4, text: "200 W" },
+        ]
+    },
+    {
+        question: "O que significa relação frente/costas ruma antena Yagi?",
+        answers: [
+            { id: 1, text: "O número de diretores relativamente ao número de refletores" },
+            { id: 2, text: "A posição relativa do elemento excitador relativamente aos refletores e diretores" },
+            { id: 3, text: "A potência radiada no lóbulo principal de radiação comparada com a potência radiada na direção exatamente oposta", correct: true },
+            { id: 4, text: " A relação entre o ganho direto e o ganho do dipolo" },
+        ]
+    },
+    {
+        question: "Qual das seguintes antenas não tem ganho em qualquer direção?",
+        answers: [
+            { id: 1, text: "Antena \"long wire\"" },
+            { id: 2, text: "Antena Yagi" },
+            { id: 3, text: "Antena Beverage" },
+            { id: 4, text: "Antena isotrópica", correct: true },
+        ]
+    },
+    {
+        question: "Qual o parâmetro que melhor descreve a interação de um cabo desadaptado com a carga a que é ligado?",
+        answers: [
+            { id: 1, text: "A impedância característica" },
+            { id: 2, text: "A relação de onda estacionária", correct: true },
+            { id: 3, text: "As perdas no cabo" },
+            { id: 4, text: "A constante dielétrica" },
+        ]
+    },
+    {
+        question: "Em que se traduzem as perdas de atenuação numa linha de transmissão?",
+        answers: [
+            { id: 1, text: "Num aumento da relação de onda estacionária" },
+            { id: 2, text: "Num aumento de potência refletida que pode danificar o emissor" },
+            { id: 3, text: "Num aumento de temperatura na linha de transmissão", correct: true },
+            { id: 4, text: "Num aumento de distorção do sinal" },
+        ]
+    },
+    {
+        question: "Qual é a impedância característica das linhas de transmissão habitualmente utilizada nas estações de amador para ligar o emissor à antena?",
+        answers: [
+            { id: 1, text: "8 Ohm" },
+            { id: 2, text: "600 Ohm" },
+            { id: 3, text: "12 Ohm" },
+            { id: 4, text: "50 Ohm", correct: true },
+        ]
+    },
+    {
+        question: "Uma linha de alimentação degradada que liga a saída de um emissor a uma antena, apresentará uma impedância não adequada que poderá dar origem a",
+        answers: [
+            { id: 1, text: "que o andar de pré-amplificação do emissor não seja capaz de entregar o nível necessário de potência ao andar de saída do emissor" },
+            { id: 2, text: "avaria no circuito de alimentação do emissor" },
+            { id: 3, text: "um aumento excessivo de temperatura no andar de saída do emissor", correct: true },
+            { id: 4, text: "uma perda de modulação no sinal emitido" },
+        ],
+        explanation: "A energia reflectida pode atingir o andar de saída, e causar aumento de temperatura"
+    },
+    {
+        question: "Uma linha de alimentação coaxial é constituída por",
+        answers: [
+            { id: 1, text: "um condutor simples" },
+            { id: 2, text: "dois condutores separados por espaçadores de cerâmica" },
+            { id: 3, text: "uma malha à volta do dielétrico que por sua vez envolve o condutor central", correct: true },
+            { id: 4, text: "uma malha e um condutor central enrolados em conjunto e revestidos por um dielétrico" },
+        ]
+    },
+    {
+        question: "Verificou-se que uma linha de transmissão de 200 metros possuía uma atenuação total de 26 dB. Qual é a sua atenuação por metro?",
+        answers: [
+            { id: 1, text: "0,13 dB/m", correct: true },
+            { id: 2, text: "0,26 dB/m" },
+            { id: 3, text: "13 dB/m" },
+            { id: 4, text: "26 dB/m" },
+        ]
+    },
+    {
+        question: "As linhas de condutores paralelos são linhas",
+        answers: [
+            { id: 1, text: "assimétricas" },
+            { id: 2, text: "simétricas", correct: true },
+            { id: 3, text: "de quatro condutores" },
+            { id: 4, text: "que nunca poderão ser utilizadas com linhas de transmissão de sinais de RF" },
+        ]
+    },
+    {
+        question: "Qual o coeficiente de onda estacionária que resulta da alimentação com um cabo coaxial de 50 Ohms de uma antena vertical com uma impedância de entrada de 25 Ohms?",
+        answers: [
+            { id: 1, text: "2", correct: true },
+            { id: 2, text: "2,5" },
+            { id: 3, text: "1,25" },
+            { id: 4, text: "1" },
+        ]
+    },
+    {
+        question: "Diz-se que uma linha de alimentação está adaptada a uma antena quando a potência refletida pela antena",
+        answers: [
+            { id: 1, text: "é quase igual à potência que lhe é transmitida" },
+            { id: 2, text: "é quase nula", correct: true },
+            { id: 3, text: "é praticamente infinita" },
+            { id: 4, text: "é cerca de metade da potência que lhe é transmitida" },
+        ]
+    },
+    {
+        question: "O que pode estar a acontecer quando recebemos sinais de VHF provenientes de longas distâncias?",
+        answers: [
+            { id: 1, text: "Os sinais são refletidos no espaço exterior" },
+            { id: 2, text: "Os sinais são refletidos em tempestades na vizinhança do local onde nos encontramos" },
+            { id: 3, text: "Ocorreu uma reflexão lunar esporádica" },
+            { id: 4, text: "Ocorreu uma reflexão na camada esporádica-E da ionosfera" },
+        ]
+    },
+    {
+        question: "O que poderá acontecer se as antenas duma ligação em linha de vista, na faixa de UHF, não tiverem a mesma polarização?",
+        answers: [
+            { id: 1, text: "As bandas laterais poderão ser invertidas" },
+            { id: 2, text: "A ligação poderá ser várias dezenas de vezes mais fraca do que se tivessem a mesma polarização", correct: true },
+            { id: 3, text: "Consegue-se notar um efeito de eco no áudio" },
+            { id: 4, text: "Só tem vantagens pois atenua o multipercurso" },
+        ]
+    },
+    {
+        question: "O que devemos fazer se numa comunicação de UHF em portátil repararmos que o sinal que era recebido em boas condições fica, de um momento para o outro, fraco e com distorção?",
+        answers: [
+            { id: 1, text: "Mudar de imediato as baterias de alimentação" },
+            { id: 2, text: "Comunicar de imediato com a outra estação para o operador falar mais alto" },
+            { id: 3, text: "Ajustar de imediato o \"squelch\"" },
+            { id: 4, text: "Deslocarmo-nos uns metros para o lado, pois a perda de sinal pode ser devida a reflexões (multipercurso)", correct: true },
+        ]
+    },
+    {
+        question: "Qual gama de frequências adequada a comunicações por dispersão de meteoros?",
+        answers: [
+            { id: 1, text: "1,8 - 1,9 MHz" },
+            { id: 2, text: "10 - 14 MHz" },
+            { id: 3, text: "28 - 148 MHz", correct: true },
+            { id: 4, text: "220 - 450 MHz" },
+        ]
+    },
+    {
+        question: "As mudanças no nível do sinal recebido quando se usa propagação por onda ionosférica (\"sky wave\") chamam-se",
+        answers: [
+            { id: 1, text: "perdas da onda de terra" },
+            { id: 2, text: "perdas de modulação" },
+            { id: 3, text: "desvanecimento (\"fading\")", correct: true },
+            { id: 4, text: "manchas solares" },
+        ]
+    },
+    {
+        question: "A ionosfera",
+        answers: [
+            { id: 1, text: "é uma camada magnetizada em volta da terra" },
+            { id: 2, text: "consiste em partículas magnetizadas à volta da terra" },
+            { id: 3, text: "é formada por camadas de gases ionizados à volta da terra", correct: true },
+            { id: 4, text: "é uma cintura esférica de radiação solar à volta da terra" },
+        ]
+    },
+    {
+        question: "A posição da camada E da ionosfera é",
+        answers: [
+            { id: 1, text: "por cima da camada F" },
+            { id: 2, text: "abaixo da camada F", correct: true },
+            { id: 3, text: "abaixo da camada D" },
+            { id: 4, text: "esporádica" },
+        ]
+    },
+    {
+        question: "A camada da ionosfera responsável pelas comunicações de longa distância é a camada",
+        answers: [
+            { id: 1, text: "C" },
+            { id: 2, text: "D" },
+            { id: 3, text: "E" },
+            { id: 4, text: "F", correct: true },
+        ]
+    },
+    {
+        question: "Qual das seguintes camadas ionosféricas está mais próxima da superfície terrestres?",
+        answers: [
+            { id: 1, text: "A camada D", correct: true},
+            { id: 2, text: "A camada E" },
+            { id: 3, text: "A camada F1" },
+            { id: 4, text: "A camada F2" },
+        ]
+    },
+    {
+        question: "Ao nível da propagação de ondas eletromagnéticas nas faixas de frequências de radiocomunicações, o que se designa por \"ducto\"?",
+        answers: [
+            { id: 1, text: "É uma condição de propagação troposférica em que as ondas eletromagnéticas deixam de se propagar" },
+            { id: 2, text: "É uma condição de propagação troposférica pouco comum", correct: true },
+            { id: 3, text: "É a base dos modelos teóricos de propagação ionosférica" },
+            { id: 4, text: "É uma condição de propagação ionosférica, em que estas camadas são atravessadas facilmente nas faixas de HF" },
+        ]
+    },
+    {
+        question: "Qual das seguintes medições descreve uma linha de transmissão desadaptada?",
+        answers: [
+            { id: 1, text: "Relação de onda estacionária de tensão (VSWR) menor que 1" },
+            { id: 2, text: "Perdas no cabo inferiores maiores que 0,5 dB" },
+            { id: 3, text: "Constante dielétrica maior que 1" },
+            { id: 4, text: "Relação de onda estacionária de tensão (VSWR) maior que 1", correct: true },
+        ]
+    },
+    {
+        question: "Como se deve ligar um amperímetro num circuito em que se pretende efetuar uma medida?",
+        answers: [
+            { id: 1, text: "Em série", correct: true },
+            { id: 2, text: "Em paralelo" },
+            { id: 3, text: "Indiscriminadamente" },
+            { id: 4, text: "Em série-paralelo" },
+        ]
+    },
+    {
+        question: "Pretende-se medir a potência aparente radiada de uma estação numa dada frequência. Que instrumento se deve utilizar?",
+        answers: [
+            { id: 1, text: "Um voltímetro seletivo que deverá ter uma precisão superior a 1/1 000 000" },
+            { id: 2, text: "Um amperímetro que deverá ser colocado a medir a potência de alimentação da estação" },
+            { id: 3, text: "Um frequencímetro, tendo o cuidado de evitar que ele sature" },
+            { id: 4, text: "A potência aparente radiada não pode ser medida de forma direta por nenhum equipamento", correct: true },
+        ]
+    },
+    {
+        question: "Qual a vantagem do recurso a um wattímetro de leitura de pico para monitorizar a saída de um transmissor de fonia de banda lateral única?",
+        answers: [
+            { id: 1, text: "Facilita a determinação da sintonização correta do circuito à saída" },
+            { id: 2, text: "Permite visualizar os valores de potência de pico envolvente à saída com maior precisão na presença de modulação" },
+            { id: 3, text: "Facilita a deteção de coeficientes elevados de onda estacionária na linha de alimentação" },
+            { id: 4, text: "Permite a determinação da presença de ondas com \"flat-topping\" em momentos de pico de modulação" },
+        ]
+    },
 ];
 
 export default questions;
