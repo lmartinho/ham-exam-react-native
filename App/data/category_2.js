@@ -72,7 +72,7 @@ const questions = [
             { id: 1, text: "6 V" },
             { id: 2, text: "12 V" },
             { id: 3, text: "24 V", correct: true },
-            { id: 4, text: "Nenhuma das respostas está correta" },
+            { id: 4, text: "Nenhuma das respostas está correta" }
         ]
     },
     {
@@ -81,7 +81,7 @@ const questions = [
             { id: 1, text: "infinita", correct: true },
             { id: 2, text: "nula" },
             { id: 3, text: "sempre igual a 1 Ampère" },
-            { id: 4, text: "igual à corrente de circuito aberto" },
+            { id: 4, text: "igual à corrente de circuito aberto" }
         ]
     },
     {
@@ -90,7 +90,7 @@ const questions = [
             { id: 1, text: "Ligação de fontes de tensão em série" },
             { id: 2, text: "Ligação de fontes de tensão em paralelo" },
             { id: 3, text: "Manutenção de fontes de tensão em vazio" },
-            { id: 4, text: "Nenhuma das respostas está correta", correct: true },
+            { id: 4, text: "Nenhuma das respostas está correta", correct: true }
         ]
     },
     {
@@ -144,7 +144,7 @@ const questions = [
             { id: 1, text: "14,117 MHz" },
             { id: 2, text: "28,234 MHz" },
             { id: 3, text: "21,250 MHz", correct: true },
-            { id: 4, text: "7,000 MHz" },
+            { id: 4, text: "7,000 MHz" }
         ]
     },
     {
@@ -279,7 +279,7 @@ const questions = [
             { id: 1, text: "± 2,5 kHz" },
             { id: 2, text: "± 5,0 kHz" },
             { id: 3, text: "± 10 kHz", correct: true },
-            { id: 4, text: "± 20 kHz" },
+            { id: 4, text: "± 20 kHz" }
         ]
     },
     {
@@ -297,7 +297,7 @@ const questions = [
             { id: 1, text: "Ao conjunto de frequências situadas imediatamente abaixo e acima da frequência da portadora e que resultam da soma e da diferença entre a frequência da portadora e de cada uma das frequências que a modulam", correct: true },
             { id: 2, text: "A todas as frequências situadas aos lados da portadora" },
             { id: 3, text: "Ao conjunto de frequências que modulam a portadora" },
-            { id: 4, text: "A todas as frequências que o recetor possa receber simultaneamente com a portadora" },
+            { id: 4, text: "A todas as frequências que o recetor possa receber simultaneamente com a portadora" }
         ]
     },
     {
@@ -306,7 +306,7 @@ const questions = [
             { id: 1, text: "À diferença entre o valor máximo de frequência que a onda modulada apresenta devido à modulação e a frequência da portadora", correct: true },
             { id: 2, text: "À diferença entre o valor máximo e o valor mínimo da frequência da onda modulada" },
             { id: 3, text: "Ao dobro da tolerância de frequência permitida regulamentarmente" },
-            { id: 4, text: "Ao número de kHz que a frequência da portadora se afasta do seu valor nominal devido à falta de estabilidade do oscilador, na ausência de modulação" },
+            { id: 4, text: "Ao número de kHz que a frequência da portadora se afasta do seu valor nominal devido à falta de estabilidade do oscilador, na ausência de modulação" }
         ]
     },
     {
@@ -532,7 +532,7 @@ const questions = [
             { id: 1, text: "3 resistências de 10 Ohm em série" },
             { id: 2, text: "4 resistências de 250 Ohm em paralelo", correct: true },
             { id: 3, text: "5 resistências de 200 Ohm em série" },
-            { id: 4, text: "10 resistências de 10 Ohm em paralelo" },
+            { id: 4, text: "10 resistências de 10 Ohm em paralelo" }
         ],
         explanation: "1/62,5 = (1/R)*N. 1/62,5 = N/R. R/N = 62,5. 250/4 = 62,5"
     },
@@ -542,7 +542,7 @@ const questions = [
             { id: 1, text: "de igual valor" },
             { id: 2, text: "o dobro do valor de cada uma delas" },
             { id: 3, text: "metade de cada uma delas", correct: true },
-            { id: 4, text: "um quarto do valor de cada uma delas" },
+            { id: 4, text: "um quarto do valor de cada uma delas" }
         ],
         explanation: "1/Req = 1/R + 1/R. 1/Req = 2/R. Req = R/2"
     },
@@ -552,7 +552,7 @@ const questions = [
             { id: 1, text: "1 Ohm" },
             { id: 2, text: "10 Ohm", correct: true },
             { id: 3, text: "12,5 Ohm" },
-            { id: 4, text: "25 Ohm" },
+            { id: 4, text: "25 Ohm" }
         ],
         explanation: "1/Req = (1/R) * 10. 1/Req = 10/R. Req = R/10"
     },
@@ -562,7 +562,7 @@ const questions = [
             { id: 1, text: "a corrente está em avanço relativamente à tensão" },
             { id: 2, text: "a tensão está em avanço relativamente à corrente" },
             { id: 3, text: "a tensão e a corrente estão em oposição de fase" },
-            { id: 4, text: "a tensão e a corrente estão em fase", correct: true },
+            { id: 4, text: "a tensão e a corrente estão em fase", correct: true }
         ]
     },
     {
@@ -571,7 +571,7 @@ const questions = [
             { id: 1, text: "Farad", correct: true },
             { id: 2, text: "Henry" },
             { id: 3, text: "Hertz" },
-            { id: 4, text: "Volt" },
+            { id: 4, text: "Volt" }
         ],
         explanation: "Farad para capacidade. Henry para indutância. Hertz para frequência. Volt para força electromotriz."
     },
@@ -581,7 +581,7 @@ const questions = [
             { id: 1, text: "0,01 F = 10 000 pF" },
             { id: 2, text: "0,01 mF = 10 000 pF" },
             { id: 3, text: "0,01 μF = 10 000 pF", correct: true },
-            { id: 4, text: "0,01 nF = 10 000 pF" },
+            { id: 4, text: "0,01 nF = 10 000 pF" }
         ],
         explanation: "pico é 10^-12. 10 000 * 10^-12 = 0,01 * 10^-6. 10^-6 = micro"
     },
@@ -591,7 +591,7 @@ const questions = [
             { id: 1, text: "ao produto das capacidades" },
             { id: 2, text: "à soma das capacidades", correct: true },
             { id: 3, text: "à diferença entre a capacidade maior e a menor" },
-            { id: 4, text: "ao quociente da capacidade maior pela capacidade menor" },
+            { id: 4, text: "ao quociente da capacidade maior pela capacidade menor" }
         ]
     },
     {
@@ -600,7 +600,7 @@ const questions = [
             { id: 1, text: "Elevada precisão" },
             { id: 2, text: "Não ter polaridade" },
             { id: 3, text: "Capacidade elevada para um volume determinado", correct: true },
-            { id: 4, text: "Condensador RF de custo reduzido" },
+            { id: 4, text: "Condensador RF de custo reduzido" }
         ]
     },
     {
@@ -609,7 +609,7 @@ const questions = [
             { id: 1, text: "Apresenta elevada autoindução" },
             { id: 2, text: "Apresenta uma baixa resistência" },
             { id: 3, text: "Comporta-se como um curto-circuito" },
-            { id: 4, text: "Comporta-se como um circuito aberto", correct: true },
+            { id: 4, text: "Comporta-se como um circuito aberto", correct: true }
         ],
         explanation: "Depois de carregar, um condensador impede o fluxo adicional de electrões"
     },
@@ -619,7 +619,7 @@ const questions = [
             { id: 1, text: "Farad" },
             { id: 2, text: "Henry", correct: true },
             { id: 3, text: "Hertz" },
-            { id: 4, text: "Volt" },
+            { id: 4, text: "Volt" }
         ]
     },
     {
@@ -628,7 +628,7 @@ const questions = [
             { id: 1, text: "Apresenta elevadas capacidades parasitas" },
             { id: 2, text: "Apresenta uma elevada resistência" },
             { id: 3, text: "Comporta-se como um curto-circuito", correct: true },
-            { id: 4, text: "Comporta-se como um circuito aberto" },
+            { id: 4, text: "Comporta-se como um circuito aberto" }
         ]
     },
     {
@@ -637,7 +637,7 @@ const questions = [
             { id: 1, text: "1 μH = 0,001 H" },
             { id: 2, text: "1 mH = 0,001 H", correct: true },
             { id: 3, text: "1 nH = 0,000 000 1 H" },
-            { id: 4, text: "1 μH = 0,001 H" },
+            { id: 4, text: "1 μH = 0,001 H" }
         ]
     },
     {
@@ -646,7 +646,7 @@ const questions = [
             { id: 1, text: "Os transformadores transformam corrente contínua em corrente alternada" },
             { id: 2, text: "Os transformadores transformam corrente alternada em corrente contínua" },
             { id: 3, text: "As frequências dos sinais no primário e no secundário dum transformador são iguais", correct: true },
-            { id: 4, text: "Os transformadores são utilizados fundamentalmente para transformar uma tensão contínua dum dado valor numa tensão contínua de valor mais elevado" },
+            { id: 4, text: "Os transformadores são utilizados fundamentalmente para transformar uma tensão contínua dum dado valor numa tensão contínua de valor mais elevado" }
         ]
     },
     {
@@ -655,7 +655,7 @@ const questions = [
             { id: 1, text: "de tensão contínua" },
             { id: 2, text: "de tensão alternada", correct: true },
             { id: 3, text: "de tensão retificada" },
-            { id: 4, text: "de tensão retificada em apenas metade do período" },
+            { id: 4, text: "de tensão retificada em apenas metade do período" }
         ]
     },
     {
@@ -664,7 +664,7 @@ const questions = [
             { id: 1, text: "Um transformador é constituído em geral por dois enrolamentos, separados galvanicamente,aos quais se dão os nomes de primário e secundário", correct: true },
             { id: 2, text: "Os transformadores só são utilizados em frequências acima de 1 kHz" },
             { id: 3, text: "Um transformador além de transformar tensões e correntes contínuas, também é utilizado em aplicações de transformação de impedâncias" },
-            { id: 4, text: "Os transformadores só são utilizados em frequências abaixo de 5 Hz" },
+            { id: 4, text: "Os transformadores só são utilizados em frequências abaixo de 5 Hz" }
         ]
     },
     {
@@ -673,7 +673,7 @@ const questions = [
             { id: 1, text: "Acoplamento capacitivo" },
             { id: 2, text: "Acoplamento através de corrente dielétrica" },
             { id: 3, text: "Indutância mútua", correct: true },
-            { id: 4, text: "Capacidade mútua" },
+            { id: 4, text: "Capacidade mútua" }
         ]
     },
     {
@@ -682,7 +682,7 @@ const questions = [
             { id: 1, text: "uma junção entre duas substâncias semicondutoras", correct: true },
             { id: 2, text: "uma junção entre duas substâncias condutoras" },
             { id: 3, text: "uma junção entre duas substâncias isolantes" },
-            { id: 4, text: "uma junção entre uma substância condutora e outra semicondutora" },
+            { id: 4, text: "uma junção entre uma substância condutora e outra semicondutora" }
         ]
     },
     {
@@ -691,7 +691,7 @@ const questions = [
             { id: 1, text: "à tensão de polarização direta máxima" },
             { id: 2, text: "a qualquer valor de tensão alternada aplicada ao díodo" },
             { id: 3, text: "ao valor de tensão inversa que produz um aumento significativo da corrente inversa", correct: true },
-            { id: 4, text: "à tensão de saturação" },
+            { id: 4, text: "à tensão de saturação" }
         ]
     },
     {
@@ -700,7 +700,7 @@ const questions = [
             { id: 1, text: "as lacunas", correct: true },
             { id: 2, text: "os eletrões" },
             { id: 3, text: "os neutrões" },
-            { id: 4, text: "os fotões" },
+            { id: 4, text: "os fotões" }
         ]
     },
     {
@@ -709,7 +709,7 @@ const questions = [
             { id: 1, text: "0V" },
             { id: 2, text: "70V" },
             { id: 3, text: "100V" },
-            { id: 4, text: "141V", correct: true },
+            { id: 4, text: "141V", correct: true }
         ],
         explanation: "Um díodo em polarização inversa vai oferecer resistência infinita, logo a tensão entre os seus terminais sera o máximo da fonte de tensão, ou seja para 100 V rms 100 V / raiz quadrada de 2 ou, aproximadamente, 141V"
     },
@@ -719,7 +719,7 @@ const questions = [
             { id: 1, text: "D1" },
             { id: 2, text: "D2" },
             { id: 3, text: "D3" },
-            { id: 4, text: "D4", correct: true },
+            { id: 4, text: "D4", correct: true }
         ],
         // @TODO: Add image
         image: ""
@@ -730,7 +730,7 @@ const questions = [
             { id: 1, text: "entre -2 V e -1 V" },
             { id: 2, text: " entre -1 V e 0 V" },
             { id: 3, text: "entre 0 V e 1 V", correct: true },
-            { id: 4, text: "entre 1 V e 2 V" },
+            { id: 4, text: "entre 1 V e 2 V" }
         ],
         // @TODO: Add image
         image: "",
@@ -742,7 +742,7 @@ const questions = [
             { id: 1, text: "resistências" },
             { id: 2, text: "condensadores e transístores" },
             { id: 3, text: "termístores" },
-            { id: 4, text: "díodos", correct: true },
+            { id: 4, text: "díodos", correct: true }
         ]
     },
     {
@@ -751,7 +751,7 @@ const questions = [
             { id: 1, text: "duas lâminas muito finas de germânio de tipo N que envolvem uma lâmina espessa de germânio de tipo P" },
             { id: 2, text: "uma lâmina muito fina de germânio de tipo N colocada entre duas lâminas espessas de germânio de tipo P", correct: true },
             { id: 3, text: "um material emissor de eletrões e de protões" },
-            { id: 4, text: "um emissor e uma base, podendo ter ou não ter coletor" },
+            { id: 4, text: "um emissor e uma base, podendo ter ou não ter coletor" }
         ]
     },
     {
@@ -760,7 +760,7 @@ const questions = [
             { id: 1, text: "A", correct: true },
             { id: 2, text: "B" },
             { id: 3, text: "C" },
-            { id: 4, text: "Não há base" },
+            { id: 4, text: "Não há base" }
         ]
     },
     {
@@ -769,7 +769,7 @@ const questions = [
             { id: 1, text: "A - emissor, B - base e C - coletor" },
             { id: 2, text: "A - base, B - coletor e C - emissor" },
             { id: 3, text: "A - base, B - emissor e C - coletor", correct: true },
-            { id: 4, text: "A - coletor, B - emissor e C - base" },
+            { id: 4, text: "A - coletor, B - emissor e C - base" }
         ],
         // @TODO: Add image
         image: ""
@@ -780,7 +780,7 @@ const questions = [
             { id: 1, text: "amplificadores" },
             { id: 2, text: "comutadores" },
             { id: 3, text: "osciladores" },
-            { id: 4, text: "Todas as hipóteses estão corretas" },
+            { id: 4, text: "Todas as hipóteses estão corretas" }
         ]
     },
     {
@@ -789,7 +789,7 @@ const questions = [
             { id: 1, text: "inversa, corte e saturação" },
             { id: 2, text: "inversa, ativa e saturação" },
             { id: 3, text: "corte, ativa e saturação", correct: true },
-            { id: 4, text: "ativa, saturação e inversa" },
+            { id: 4, text: "ativa, saturação e inversa" }
         ]
     },
     {
@@ -798,7 +798,7 @@ const questions = [
             { id: 1, text: "Na zona ativa", correct: true },
             { id: 2, text: "Na zona de corte" },
             { id: 3, text: "Na zona de saturação" },
-            { id: 4, text: "Na zona inversa de saturação" },
+            { id: 4, text: "Na zona inversa de saturação" }
         ]
     },
     {
@@ -807,7 +807,7 @@ const questions = [
             { id: 1, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona ativa" },
             { id: 2, text: "à determinação das tensões e correntes contínuas (DC) que garantem o funcionamento do transístor na zona de corte"},
             { id: 3, text: "à determinação das tensões e correntes alternadas (AC) que garantem o funcionamento do transístor na zona de corte" },
-            { id: 4, text: "à determinação das tensões e correntes contínuas (DC) que garantem o  funcionamento do transístor na zona ativa", correct: true },
+            { id: 4, text: "à determinação das tensões e correntes contínuas (DC) que garantem o  funcionamento do transístor na zona ativa", correct: true }
         ]
     },
     {
@@ -816,7 +816,7 @@ const questions = [
             { id: 1, text: "duma forma geral, inverte e amplifica o sinal de entrada", correct: true },
             { id: 2, text: "duma forma geral, não possui qualquer ganho" },
             { id: 3, text: "duma forma geral, comporta-se da mesma forma que um seguidor de emissor" },
-            { id: 4, text: "duma forma geral, reduz ligeiramente o sinal de entrada, mantendo a fase" },
+            { id: 4, text: "duma forma geral, reduz ligeiramente o sinal de entrada, mantendo a fase" }
         ]
     },
     {
@@ -825,7 +825,7 @@ const questions = [
             { id: 1, text: "3 elementos" },
             { id: 2, text: "4 elementos", correct: true },
             { id: 3, text: "5 elementos" },
-            { id: 4, text: "6 elementos" },
+            { id: 4, text: "6 elementos" }
         ]
     },
     {
@@ -834,7 +834,7 @@ const questions = [
             { id: 1, text: "Devido à pouca linearidade das válvulas quando utilizadas em amplificadores de áudio" },
             { id: 2, text: "Pelo facto dos dispositivos a válvulas serem extremamente perigosos" },
             { id: 3, text: "Devido ao menor tamanho dos dispositivos de estado sólido", correct: true },
-            { id: 4, text: "Todas as respostas estão corretas" },
+            { id: 4, text: "Todas as respostas estão corretas" }
         ]
     },
     {
@@ -843,7 +843,7 @@ const questions = [
             { id: 1, text: "possuem circuitos ressonantes na entrada e na saída" },
             { id: 2, text: "são úteis para a amplificação de sinais em banda estreita" },
             { id: 3, text: "apresentam uma resposta tipicamente passa-banda", correct: true },
-            { id: 4, text: "Todas as hipóteses estão corretas" },
+            { id: 4, text: "Todas as hipóteses estão corretas" }
         ]
     },
     {
@@ -852,7 +852,7 @@ const questions = [
             { id: 1, text: "a rejeitar as frequências mais baixas" },
             { id: 2, text: "a rejeitar as frequências mais altas", correct: true },
             { id: 3, text: "a rejeitar as frequências mais baixas e as frequências mais altas, deixando passar uma dada gama de frequências" },
-            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências" },
+            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências" }
         ]
     },
     {
@@ -861,7 +861,7 @@ const questions = [
             { id: 1, text: "a rejeitar as frequências mais baixas" },
             { id: 2, text: "a rejeitar as frequências mais altas" },
             { id: 3, text: "a rejeitar as frequências mais baixas e as frequências mais altas, deixando passar uma dada gama de frequências" },
-            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências", correct: true },
+            { id: 4, text: "a deixar passar as frequências mais baixas e as frequências mais altas, rejeitando uma dada gama de frequências", correct: true }
         ]
     },
     {
@@ -870,7 +870,7 @@ const questions = [
             { id: 1, text: "um filtro passa alto" },
             { id: 2, text: "um filtro passa baixo", correct: true },
             { id: 3, text: "um filtro passa banda" },
-            { id: 4, text: "um filtro rejeita banda" },
+            { id: 4, text: "um filtro rejeita banda" }
         ]
     },
     {
@@ -879,7 +879,7 @@ const questions = [
             { id: 1, text: "faz uma retificação de meia onda que não é adequada se o circuito de carga necessitar de uma tensão contínua", correct: true },
             { id: 2, text: "faz uma retificação de onda completa que não é adequada se o circuito de carga necessitar de uma tensão contínua" },
             { id: 3, text: "faz uma retificação de um quarto de onda que não é adequada se o circuito de carga necessitar de uma tensão contínua" },
-            { id: 4, text: "não provoca qualquer efeito, não sendo adequada se o circuito de carga necessitar de uma tensão contínua" },
+            { id: 4, text: "não provoca qualquer efeito, não sendo adequada se o circuito de carga necessitar de uma tensão contínua" }
         ]
     },
     {
@@ -888,7 +888,7 @@ const questions = [
             { id: 1, text: "Não, pois só uma ponte retificadora o permite fazer" },
             { id: 2, text: "Sim, se no secundário se tiver acesso a uma tomada central", correct: true },
             { id: 3, text: " Não, pois precisa-se pelo menos de um transístor" },
-            { id: 4, text: "Sim se se tiver também uma resistência em série com cada um dos díodos" },
+            { id: 4, text: "Sim se se tiver também uma resistência em série com cada um dos díodos" }
         ]
     },
     {
@@ -897,7 +897,7 @@ const questions = [
             { id: 1, text: "uma retificação de um oitavo de onda" },
             { id: 2, text: "uma retificação de um quarto de onda" },
             { id: 3, text: "uma retificação de meia onda" },
-            { id: 4, text: "uma retificação de onda completa", correct: true },
+            { id: 4, text: "uma retificação de onda completa", correct: true }
         ]
     },
     {
@@ -906,7 +906,7 @@ const questions = [
             { id: 1, text: "condensador retificador" },
             { id: 2, text: "condensador de ajuste" },
             { id: 3, text: "condensador \"feedback\" de picos" },
-            { id: 4, text: "condensador supressor de picos", correct: true },
+            { id: 4, text: "condensador supressor de picos", correct: true }
         ],
         explanation: "Retificador é o circuito que mantem a polarização constante. Não há resultados no Google para condensador de ajuste nem feedback de picos. Supressor de picos parece-me fazer sentido, mas tenho dúvidas."
     },
@@ -916,7 +916,7 @@ const questions = [
             { id: 1, text: "Funciona como fusível da tensão em excesso" },
             { id: 2, text: "Descarrega o condensador de filtragem", correct: true },
             { id: 3, text: "Exclui os riscos de choques produzidos pelas bobinas de indução" },
-            { id: 4, text: "Elimina a corrente do \"loop\" de terra" },
+            { id: 4, text: "Elimina a corrente do \"loop\" de terra" }
         ]
     },
     {
@@ -925,7 +925,7 @@ const questions = [
             { id: 1, text: "43,5" },
             { id: 2, text: "30", correct: true },
             { id: 3, text: "46,5" },
-            { id: 4, text: "40" },
+            { id: 4, text: "40" }
         ]
     },
     {
@@ -934,7 +934,7 @@ const questions = [
             { id: 1, text: "se a um certo valor de tensão alternada aplicado à entrada de um circuito, corresponde uma tensão, também alternada mas de maior amplitude, na saída do mesmo circuito", correct: true },
             { id: 2, text: "se a um certo valor de tensão contínua aplicado à entrada de um circuito, corresponde uma tensão alternada na saída do mesmo circuito" },
             { id: 3, text: "se a um certo valor de tensão alternada aplicado à entrada de um circuito, corresponde uma tensão contínua na saída do mesmo circuito" },
-            { id: 4, text: "se uma tensão de audiofrequência aplicada à entrada de um circuito, corresponde uma tensão de radiofrequência na saída do mesmo circuito" },
+            { id: 4, text: "se uma tensão de audiofrequência aplicada à entrada de um circuito, corresponde uma tensão de radiofrequência na saída do mesmo circuito" }
         ]
     },
     {
@@ -943,7 +943,7 @@ const questions = [
             { id: 1, text: "0,5 mA" },
             { id: 2, text: "2 mA" },
             { id: 3, text: "40 mA" },
-            { id: 4, text: "0,8 A", correct: true },
+            { id: 4, text: "0,8 A", correct: true }
         ]
     },
     {
@@ -952,7 +952,7 @@ const questions = [
             { id: 1, text: "Um amplificador que transforma sinais AC em sinais DC" },
             { id: 2, text: "Um amplificador cuja saída mantém a forma de onda de entrada", correct: true },
             { id: 3, text: "Um amplificador de classe C de elevada eficiência" },
-            { id: 4, text: "Um amplificador usado como multiplicador de frequências" },
+            { id: 4, text: "Um amplificador usado como multiplicador de frequências" }
         ]
     },
     {
@@ -961,7 +961,7 @@ const questions = [
             { id: 1, text: "Modulador balanceado" },
             { id: 2, text: "Amplificador de IF" },
             { id: 3, text: "Misturador", correct: true },
-            { id: 4, text: "Detetor" },
+            { id: 4, text: "Detetor" }
         ]
     },
     {
@@ -970,7 +970,7 @@ const questions = [
             { id: 1, text: "Um recetor super-regenerativo" },
             { id: 2, text: "Um recetor do tipo TRF (\"Tuned Radio Frequency\")", correct: true },
             { id: 3, text: "Um recetor super-heterodino" },
-            { id: 4, text: "Um recetor de conversão direta" },
+            { id: 4, text: "Um recetor de conversão direta" }
         ],
         explanation: "Analisado diagrama de blocos de um recetor TRF vemos que não existe andar de mistura, nem IF. O amplificador é de banda base"
     },
@@ -980,7 +980,7 @@ const questions = [
             { id: 1, text: "Heterodinagem", correct: true },
             { id: 2, text: "Sintetização" },
             { id: 3, text: "Cancelamento" },
-            { id: 4, text: "Filtragem" },
+            { id: 4, text: "Filtragem" }
         ]
     },
     {
@@ -989,7 +989,7 @@ const questions = [
             { id: 1, text: "A1A", correct: true },
             { id: 2, text: "A3E" },
             { id: 3, text: "J3E" },
-            { id: 4, text: "F3E" },
+            { id: 4, text: "F3E" }
         ]
     },
     {
@@ -998,7 +998,7 @@ const questions = [
             { id: 1, text: "A1A" },
             { id: 2, text: "A3E" },
             { id: 3, text: "J3E" },
-            { id: 4, text: "F3E" },
+            { id: 4, text: "F3E" }
         ]
     },
     {
@@ -1007,7 +1007,7 @@ const questions = [
             { id: 1, text: "É um circuito gerador de sinais de FM" },
             { id: 2, text: "É um circuito que filtra dois sinais adjacentes muito próximos" },
             { id: 3, text: "É um circuito com comutação de bandas automático" },
-            { id: 4, text: "É um circuito de deteção de sinais FM", correct: true },
+            { id: 4, text: "É um circuito de deteção de sinais FM", correct: true }
         ]
     },
     {
@@ -1016,7 +1016,7 @@ const questions = [
             { id: 1, text: "Misturador", correct: true },
             { id: 2, text: "BFO" },
             { id: 3, text: "VFO" },
-            { id: 4, text: "Multiplicador" },
+            { id: 4, text: "Multiplicador" }
         ]
     },
     {
@@ -1025,7 +1025,7 @@ const questions = [
             { id: 1, text: "Aproximadamente 5 vezes" },
             { id: 2, text: "Aproximadamente 4 vezes", correct: true },
             { id: 3, text: "Aproximadamente 3 vezes" },
-            { id: 4, text: "Aproximadamente 2 vezes" },
+            { id: 4, text: "Aproximadamente 2 vezes" }
         ]
     },
     {
@@ -1034,7 +1034,7 @@ const questions = [
             { id: 1, text: "No emissor" },
             { id: 2, text: "Numa ponte de SWR" },
             { id: 3, text: "No recetor", correct: true },
-            { id: 4, text: "Numa ponte de díodos" },
+            { id: 4, text: "Numa ponte de díodos" }
         ]
     },
     {
@@ -1043,7 +1043,7 @@ const questions = [
             { id: 1, text: "Condutância" },
             { id: 2, text: "Impedância" },
             { id: 3, text: "Intensidade do sinal recebido", correct: true },
-            { id: 4, text: "Potência do transmissor" },
+            { id: 4, text: "Potência do transmissor" }
         ]
     },
     {
@@ -1052,7 +1052,7 @@ const questions = [
             { id: 1, text: "Pela retificação e filtragem de sinais de RF", correct: true },
             { id: 2, text: "Pela rutura da tensão de Zener" },
             { id: 3, text: "Pela mistura de sinais com ruído na zona de transição do díodo" },
-            { id: 4, text: "Pela verificação da variação da reactância no díodo em relação à frequência" },
+            { id: 4, text: "Pela verificação da variação da reactância no díodo em relação à frequência" }
         ]
     },
     {
@@ -1061,7 +1061,7 @@ const questions = [
             { id: 1, text: "combina sinais de duas frequências diferentes para obter uma frequência intermédia", correct: true },
             { id: 2, text: "combina as bandas laterais de modo a obter um sinal mais forte" },
             { id: 3, text: "faz a discriminação contra os sinais SSB e AM" },
-            { id: 4, text: "insere uma portadora para obter um verdadeiro sinal FM" },
+            { id: 4, text: "insere uma portadora para obter um verdadeiro sinal FM" }
         ]
     },
     {
@@ -1070,7 +1070,7 @@ const questions = [
             { id: 1, text: "atenuador de frequências desnecessárias" },
             { id: 2, text: "oscilador de frequências básicas" },
             { id: 3, text: "oscilador de frequência de batimento", correct: true },
-            { id: 4, text: "oscilador da banda de filtragem" },
+            { id: 4, text: "oscilador da banda de filtragem" }
         ],
         explanation: "Beat Frequency Oscillator serve para criar um sinal de frequência audio a partir de transmissões radiotelegráficas."
     },
@@ -1080,7 +1080,7 @@ const questions = [
             { id: 1, text: "limita o sinal a uma amplitude constante", correct: true },
             { id: 2, text: "rejeita sinais SSB e CW" },
             { id: 3, text: "limita o desvio de frequência do sinal" },
-            { id: 4, text: "limita o desvio de fase do sinal" },
+            { id: 4, text: "limita o desvio de fase do sinal" }
         ]
     },
     {
@@ -1089,7 +1089,7 @@ const questions = [
             { id: 1, text: "Misturador" },
             { id: 2, text: "Detetor" },
             { id: 3, text: "Amplificador de IF" },
-            { id: 4, text: "Modulador balanceado", correct: true },
+            { id: 4, text: "Modulador balanceado", correct: true }
         ]
     },
     {
@@ -1098,7 +1098,7 @@ const questions = [
             { id: 1, text: "amplitude" },
             { id: 2, text: "frequência", correct: true },
             { id: 3, text: "amplitude com portadora suprimida" },
-            { id: 4, text: "onda contínua" },
+            { id: 4, text: "onda contínua" }
         ]
     },
     {
@@ -1107,7 +1107,7 @@ const questions = [
             { id: 1, text: "da variação da amplitude da portadora em função do sinal que a modula" },
             { id: 2, text: "da variação da frequência da portadora em função do sinal que a modula", correct: true },
             { id: 3, text: "da variação da fase da portadora em função do sinal que a modula" },
-            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" },
+            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" }
         ]
     },
     {
@@ -1116,7 +1116,7 @@ const questions = [
             { id: 1, text: "da variação da amplitude da portadora em função do sinal que a modula", correct: true },
             { id: 2, text: "da variação da frequência da portadora em função do sinal que a modula" },
             { id: 3, text: "da variação da fase da portadora em função do sinal que a modula" },
-            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" },
+            { id: 4, text: "da variação do ruído da portadora em função do sinal que a modula" }
         ]
     },
     {
@@ -1125,7 +1125,7 @@ const questions = [
             { id: 1, text: "Na fonte de alimentação" },
             { id: 2, text: "No recetor" },
             { id: 3, text: "A seguir ao andar de saída do emissor", correct: true },
-            { id: 4, text: "No microfone" },
+            { id: 4, text: "No microfone" }
         ],
         explanation: "A fase final de um circuito de amplificação de RF alimenta um filtro-passa baixo que atenua harmónicas da portadora e sinais espúrios"
     },
@@ -1135,7 +1135,7 @@ const questions = [
             { id: 1, text: "É um circuito que, de uma forma geral, serve de amplificador", correct: true },
             { id: 2, text: "É um circuito que, de ma forma geral, serve de fonte de alimentação" },
             { id: 3, text: "É um circuito que, de uma forma geral, serve de isolador" },
-            { id: 4, text: "É um circuito que, de uma forma geral, serve de filtro" },
+            { id: 4, text: "É um circuito que, de uma forma geral, serve de filtro" }
         ]
     },
     {
@@ -1144,7 +1144,7 @@ const questions = [
             { id: 1, text: "É um oscilador de frequência áudio" },
             { id: 2, text: "É um oscilador fixo controlado por um \"varicap\"" },
             { id: 3, text: "É um oscilador de fase virtual" },
-            { id: 4, text: "É um oscilador de frequência variável", correct: true },
+            { id: 4, text: "É um oscilador de frequência variável", correct: true }
         ]
     },
     {
@@ -1153,7 +1153,7 @@ const questions = [
             { id: 1, text: "O facto de utilizar uma frequência de comutação elevada permite maiores tensões na saída" },
             { id: 2, text: "Necessita de menos circuitos e componentes" },
             { id: 3, text: "A utilização de altas frequências de comutação permite a utilização de componentes mais pequenos", correct: true },
-            { id: 4, text: "Todas as afirmações anteriores estão corretas" },
+            { id: 4, text: "Todas as afirmações anteriores estão corretas" }
         ]
     },
     {
@@ -1162,7 +1162,7 @@ const questions = [
             { id: 1, text: "Frequência de saída estável", correct: true },
             { id: 2, text: "Excelente clareza na modulação" },
             { id: 3, text: "Facilidade na mudança de faixas de frequências" },
-            { id: 4, text: "Facilidade na mudança de frequência" },
+            { id: 4, text: "Facilidade na mudança de frequência" }
         ]
     },
     {
@@ -1171,7 +1171,7 @@ const questions = [
             { id: 1, text: "Banda lateral única", correct: true },
             { id: 2, text: "Modulação de frequência" },
             { id: 3, text: "Dupla banda lateral" },
-            { id: 4, text: "Modulação de fase" },
+            { id: 4, text: "Modulação de fase" }
         ]
     },
     {
@@ -1180,7 +1180,7 @@ const questions = [
             { id: 1, text: "O áudio será mais alto sem quaisquer outros efeitos" },
             { id: 2, text: "Ocupará menos largura de banda com uma resposta mais pobre às altas frequências" },
             { id: 3, text: "Maior fidelidade e melhoria na relação sinal-ruído" },
-            { id: 4, text: "Ficará distorcido e terá uma maior largura de banda", correct: true },
+            { id: 4, text: "Ficará distorcido e terá uma maior largura de banda", correct: true }
         ]
     },
     {
@@ -1189,7 +1189,7 @@ const questions = [
             { id: 1, text: "é emitida pela antena" },
             { id: 2, text: "é dissipada como calor", correct: true },
             { id: 3, text: "é perdida na alimentação da antena" },
-            { id: 4, text: "deve-se às correntes oscilantes" },
+            { id: 4, text: "deve-se às correntes oscilantes" }
         ],
         explanation: "1 e 3 não fazem sentido, porque isto acontece antes da linha de alimentação da antena. A 4 também não faz muito sentido, pela que a dissipação sob a forma de calor é o que parece fazer mais sentido. Analisando teoricamente o Yaesu FT-817 parece que para emitir 5W consome mais perto de 13.8 V * 2 A = 27.6 W. Comparando com um teste no YouTube: https://www.youtube.com/watch?v=u_u1ss3GXcI, o valor parece ser 26.22 W de entrada para 5.37 W."
     },
@@ -1199,7 +1199,7 @@ const questions = [
             { id: 1, text: "A eficiência do transmissor é reduzida para este modo" },
             { id: 2, text: "Não é possível atenuar os sinais harmónicos a níveis práticos" },
             { id: 3, text: "A largura de banda excederia os limites de largura de banda regulamentares", correct: true },
-            { id: 4, text: "A estabilidade da frequência não seria apropriada" },
+            { id: 4, text: "A estabilidade da frequência não seria apropriada" }
         ]
     },
     {
@@ -1208,7 +1208,7 @@ const questions = [
             { id: 1, text: "100 Ohm" },
             { id: 2, text: "50 Ohm", correct: true },
             { id: 3, text: "Nula" },
-            { id: 4, text: "Infinita" },
+            { id: 4, text: "Infinita" }
         ]
     },
     {
@@ -1217,7 +1217,7 @@ const questions = [
             { id: 1, text: "No Regulamento das Radiocomunicações da UIT", correct: true },
             { id: 2, text: "Em qualquer sítio da internet" },
             { id: 3, text: "Nos manuais de comunicações nacionais" },
-            { id: 4, text: "Nos manuais de eletrónica" },
+            { id: 4, text: "Nos manuais de eletrónica" }
         ]
     },
     {
@@ -1226,7 +1226,7 @@ const questions = [
             { id: 1, text: "1,55" },
             { id: 2, text: "3,05" },
             { id: 3, text: "2,15", correct: true },
-            { id: 4, text: "4,3" },
+            { id: 4, text: "4,3" }
         ]
     },
     {
@@ -1235,7 +1235,7 @@ const questions = [
             { id: 1, text: "200 dBW"},
             { id: 2, text: "30 dBW", correct: true },
             { id: 3, text: "30 W" },
-            { id: 4, text: "200 W" },
+            { id: 4, text: "200 W" }
         ]
     },
     {
@@ -1244,7 +1244,7 @@ const questions = [
             { id: 1, text: "O número de diretores relativamente ao número de refletores" },
             { id: 2, text: "A posição relativa do elemento excitador relativamente aos refletores e diretores" },
             { id: 3, text: "A potência radiada no lóbulo principal de radiação comparada com a potência radiada na direção exatamente oposta", correct: true },
-            { id: 4, text: " A relação entre o ganho direto e o ganho do dipolo" },
+            { id: 4, text: " A relação entre o ganho direto e o ganho do dipolo" }
         ]
     },
     {
@@ -1253,7 +1253,7 @@ const questions = [
             { id: 1, text: "Antena \"long wire\"" },
             { id: 2, text: "Antena Yagi" },
             { id: 3, text: "Antena Beverage" },
-            { id: 4, text: "Antena isotrópica", correct: true },
+            { id: 4, text: "Antena isotrópica", correct: true }
         ]
     },
     {
@@ -1262,7 +1262,7 @@ const questions = [
             { id: 1, text: "A impedância característica" },
             { id: 2, text: "A relação de onda estacionária", correct: true },
             { id: 3, text: "As perdas no cabo" },
-            { id: 4, text: "A constante dielétrica" },
+            { id: 4, text: "A constante dielétrica" }
         ]
     },
     {
@@ -1271,7 +1271,7 @@ const questions = [
             { id: 1, text: "Num aumento da relação de onda estacionária" },
             { id: 2, text: "Num aumento de potência refletida que pode danificar o emissor" },
             { id: 3, text: "Num aumento de temperatura na linha de transmissão", correct: true },
-            { id: 4, text: "Num aumento de distorção do sinal" },
+            { id: 4, text: "Num aumento de distorção do sinal" }
         ]
     },
     {
@@ -1280,7 +1280,7 @@ const questions = [
             { id: 1, text: "8 Ohm" },
             { id: 2, text: "600 Ohm" },
             { id: 3, text: "12 Ohm" },
-            { id: 4, text: "50 Ohm", correct: true },
+            { id: 4, text: "50 Ohm", correct: true }
         ]
     },
     {
@@ -1289,7 +1289,7 @@ const questions = [
             { id: 1, text: "que o andar de pré-amplificação do emissor não seja capaz de entregar o nível necessário de potência ao andar de saída do emissor" },
             { id: 2, text: "avaria no circuito de alimentação do emissor" },
             { id: 3, text: "um aumento excessivo de temperatura no andar de saída do emissor", correct: true },
-            { id: 4, text: "uma perda de modulação no sinal emitido" },
+            { id: 4, text: "uma perda de modulação no sinal emitido" }
         ],
         explanation: "A energia reflectida pode atingir o andar de saída, e causar aumento de temperatura"
     },
@@ -1299,7 +1299,7 @@ const questions = [
             { id: 1, text: "um condutor simples" },
             { id: 2, text: "dois condutores separados por espaçadores de cerâmica" },
             { id: 3, text: "uma malha à volta do dielétrico que por sua vez envolve o condutor central", correct: true },
-            { id: 4, text: "uma malha e um condutor central enrolados em conjunto e revestidos por um dielétrico" },
+            { id: 4, text: "uma malha e um condutor central enrolados em conjunto e revestidos por um dielétrico" }
         ]
     },
     {
@@ -1308,7 +1308,7 @@ const questions = [
             { id: 1, text: "0,13 dB/m", correct: true },
             { id: 2, text: "0,26 dB/m" },
             { id: 3, text: "13 dB/m" },
-            { id: 4, text: "26 dB/m" },
+            { id: 4, text: "26 dB/m" }
         ]
     },
     {
@@ -1317,7 +1317,7 @@ const questions = [
             { id: 1, text: "assimétricas" },
             { id: 2, text: "simétricas", correct: true },
             { id: 3, text: "de quatro condutores" },
-            { id: 4, text: "que nunca poderão ser utilizadas com linhas de transmissão de sinais de RF" },
+            { id: 4, text: "que nunca poderão ser utilizadas com linhas de transmissão de sinais de RF" }
         ]
     },
     {
@@ -1326,7 +1326,7 @@ const questions = [
             { id: 1, text: "2", correct: true },
             { id: 2, text: "2,5" },
             { id: 3, text: "1,25" },
-            { id: 4, text: "1" },
+            { id: 4, text: "1" }
         ]
     },
     {
@@ -1335,7 +1335,7 @@ const questions = [
             { id: 1, text: "é quase igual à potência que lhe é transmitida" },
             { id: 2, text: "é quase nula", correct: true },
             { id: 3, text: "é praticamente infinita" },
-            { id: 4, text: "é cerca de metade da potência que lhe é transmitida" },
+            { id: 4, text: "é cerca de metade da potência que lhe é transmitida" }
         ]
     },
     {
@@ -1344,7 +1344,7 @@ const questions = [
             { id: 1, text: "Os sinais são refletidos no espaço exterior" },
             { id: 2, text: "Os sinais são refletidos em tempestades na vizinhança do local onde nos encontramos" },
             { id: 3, text: "Ocorreu uma reflexão lunar esporádica" },
-            { id: 4, text: "Ocorreu uma reflexão na camada esporádica-E da ionosfera" },
+            { id: 4, text: "Ocorreu uma reflexão na camada esporádica-E da ionosfera" }
         ]
     },
     {
@@ -1353,7 +1353,7 @@ const questions = [
             { id: 1, text: "As bandas laterais poderão ser invertidas" },
             { id: 2, text: "A ligação poderá ser várias dezenas de vezes mais fraca do que se tivessem a mesma polarização", correct: true },
             { id: 3, text: "Consegue-se notar um efeito de eco no áudio" },
-            { id: 4, text: "Só tem vantagens pois atenua o multipercurso" },
+            { id: 4, text: "Só tem vantagens pois atenua o multipercurso" }
         ]
     },
     {
@@ -1362,7 +1362,7 @@ const questions = [
             { id: 1, text: "Mudar de imediato as baterias de alimentação" },
             { id: 2, text: "Comunicar de imediato com a outra estação para o operador falar mais alto" },
             { id: 3, text: "Ajustar de imediato o \"squelch\"" },
-            { id: 4, text: "Deslocarmo-nos uns metros para o lado, pois a perda de sinal pode ser devida a reflexões (multipercurso)", correct: true },
+            { id: 4, text: "Deslocarmo-nos uns metros para o lado, pois a perda de sinal pode ser devida a reflexões (multipercurso)", correct: true }
         ]
     },
     {
@@ -1371,7 +1371,7 @@ const questions = [
             { id: 1, text: "1,8 - 1,9 MHz" },
             { id: 2, text: "10 - 14 MHz" },
             { id: 3, text: "28 - 148 MHz", correct: true },
-            { id: 4, text: "220 - 450 MHz" },
+            { id: 4, text: "220 - 450 MHz" }
         ]
     },
     {
@@ -1380,7 +1380,7 @@ const questions = [
             { id: 1, text: "perdas da onda de terra" },
             { id: 2, text: "perdas de modulação" },
             { id: 3, text: "desvanecimento (\"fading\")", correct: true },
-            { id: 4, text: "manchas solares" },
+            { id: 4, text: "manchas solares" }
         ]
     },
     {
@@ -1389,7 +1389,7 @@ const questions = [
             { id: 1, text: "é uma camada magnetizada em volta da terra" },
             { id: 2, text: "consiste em partículas magnetizadas à volta da terra" },
             { id: 3, text: "é formada por camadas de gases ionizados à volta da terra", correct: true },
-            { id: 4, text: "é uma cintura esférica de radiação solar à volta da terra" },
+            { id: 4, text: "é uma cintura esférica de radiação solar à volta da terra" }
         ]
     },
     {
@@ -1398,7 +1398,7 @@ const questions = [
             { id: 1, text: "por cima da camada F" },
             { id: 2, text: "abaixo da camada F", correct: true },
             { id: 3, text: "abaixo da camada D" },
-            { id: 4, text: "esporádica" },
+            { id: 4, text: "esporádica" }
         ]
     },
     {
@@ -1407,7 +1407,7 @@ const questions = [
             { id: 1, text: "C" },
             { id: 2, text: "D" },
             { id: 3, text: "E" },
-            { id: 4, text: "F", correct: true },
+            { id: 4, text: "F", correct: true }
         ]
     },
     {
@@ -1416,7 +1416,7 @@ const questions = [
             { id: 1, text: "A camada D", correct: true},
             { id: 2, text: "A camada E" },
             { id: 3, text: "A camada F1" },
-            { id: 4, text: "A camada F2" },
+            { id: 4, text: "A camada F2" }
         ]
     },
     {
@@ -1425,7 +1425,7 @@ const questions = [
             { id: 1, text: "É uma condição de propagação troposférica em que as ondas eletromagnéticas deixam de se propagar" },
             { id: 2, text: "É uma condição de propagação troposférica pouco comum", correct: true },
             { id: 3, text: "É a base dos modelos teóricos de propagação ionosférica" },
-            { id: 4, text: "É uma condição de propagação ionosférica, em que estas camadas são atravessadas facilmente nas faixas de HF" },
+            { id: 4, text: "É uma condição de propagação ionosférica, em que estas camadas são atravessadas facilmente nas faixas de HF" }
         ]
     },
     {
@@ -1434,7 +1434,7 @@ const questions = [
             { id: 1, text: "Relação de onda estacionária de tensão (VSWR) menor que 1" },
             { id: 2, text: "Perdas no cabo inferiores maiores que 0,5 dB" },
             { id: 3, text: "Constante dielétrica maior que 1" },
-            { id: 4, text: "Relação de onda estacionária de tensão (VSWR) maior que 1", correct: true },
+            { id: 4, text: "Relação de onda estacionária de tensão (VSWR) maior que 1", correct: true }
         ]
     },
     {
@@ -1443,7 +1443,7 @@ const questions = [
             { id: 1, text: "Em série", correct: true },
             { id: 2, text: "Em paralelo" },
             { id: 3, text: "Indiscriminadamente" },
-            { id: 4, text: "Em série-paralelo" },
+            { id: 4, text: "Em série-paralelo" }
         ]
     },
     {
@@ -1452,16 +1452,16 @@ const questions = [
             { id: 1, text: "Um voltímetro seletivo que deverá ter uma precisão superior a 1/1 000 000" },
             { id: 2, text: "Um amperímetro que deverá ser colocado a medir a potência de alimentação da estação" },
             { id: 3, text: "Um frequencímetro, tendo o cuidado de evitar que ele sature" },
-            { id: 4, text: "A potência aparente radiada não pode ser medida de forma direta por nenhum equipamento", correct: true },
+            { id: 4, text: "A potência aparente radiada não pode ser medida de forma direta por nenhum equipamento", correct: true }
         ]
     },
     {
         question: "Qual a vantagem do recurso a um wattímetro de leitura de pico para monitorizar a saída de um transmissor de fonia de banda lateral única?",
         answers: [
             { id: 1, text: "Facilita a determinação da sintonização correta do circuito à saída" },
-            { id: 2, text: "Permite visualizar os valores de potência de pico envolvente à saída com maior precisão na presença de modulação" },
+            { id: 2, text: "Permite visualizar os valores de potência de pico envolvente à saída com maior precisão na presença de modulação", correct: true },
             { id: 3, text: "Facilita a deteção de coeficientes elevados de onda estacionária na linha de alimentação" },
-            { id: 4, text: "Permite a determinação da presença de ondas com \"flat-topping\" em momentos de pico de modulação" },
+            { id: 4, text: "Permite a determinação da presença de ondas com \"flat-topping\" em momentos de pico de modulação" }
         ]
     },
 ];
