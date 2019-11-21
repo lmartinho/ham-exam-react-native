@@ -1464,6 +1464,51 @@ const questions = [
             { id: 4, text: "Permite a determinação da presença de ondas com \"flat-topping\" em momentos de pico de modulação" }
         ]
     },
+    {
+        question: "Para medir uma frequência pode ser usado",
+        answers: [
+            { id: 1, text: "um osciloscópio" },
+            { id: 2, text: "um frequencímetro" },
+            { id: 3, text: " um analisador espectral" },
+            { id: 4, text: "Todas as opções anteriores estão corretas", correct: true }
+        ]
+    },
+    {
+        question: "Que equipamento mede com maior precisão uma dada frequência?",
+        answers: [
+            { id: 1, text: "\"Absorption wave meter\"" },
+            { id: 2, text: "Voltímetro" },
+            { id: 3, text: "Frequencímetro", correct: true },
+            { id: 4, text: "Reflectómetro" }
+        ]
+    },
+    {
+        question: "Porque é desejável que um voltímetro tenha uma elevada impedância de entrada?",
+        answers: [
+            { id: 1, text: "Porque melhora a resposta em frequência" },
+            { id: 2, text: "Porque diminui o consumo da bateria" },
+            { id: 3, text: "Porque melhora a resolução das medições" },
+            { id: 4, text: "Porque apresenta um baixo efeito de carga no circuito a medir", correct: true }
+        ]
+    },
+    {
+        question: "Qual das seguintes medições pode ser efetuada direta ou indiretamente com um medidor de potência direcional?",
+        answers: [
+            { id: 1, text: "O coeficiente de onda estacionária", correct: true },
+            { id: 2, text: "Relação frente - costas de uma antena" },
+            { id: 3, text: "Interferência de RF" },
+            { id: 4, text: "Propagação de ondas de rádio" }
+        ]
+    },
+    {
+        question: "Que efeito pode ter a degradação numa linha de transmissão de um sistema de televisão por cabo numa estação de amador?",
+        answers: [
+            { id: 1, text: "Não afeta a estação de amador" },
+            { id: 2, text: "A radiação das harmónicas pode provocar a emissão pela estação de amador de radiações espúrias" },
+            { id: 3, text: "Além da possibilidade do amador interferir a receção de radiodifusão quando em emissão, pode também causar interferência na receção da estação de amador", correct: true },
+            { id: 4, text: "Podem ser criadas no cabo tensões muito elevadas quando a estação de amador emite" }
+        ]
+    },
 ];
 
 export default questions;
