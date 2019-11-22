@@ -1509,6 +1509,61 @@ const questions = [
             { id: 4, text: "Podem ser criadas no cabo tensões muito elevadas quando a estação de amador emite" }
         ]
     },
+    {
+        question: "Onde se podem encontrar as definições que deverão ser consideradas como de referência para os vários tipos de interferências?",
+        answers: [
+            { id: 1, text: "No Regulamento das Radiocomunicações da UIT", correct: true },
+            { id: 2, text: "Na IARU" },
+            { id: 3, text: "Na Internet" },
+            { id: 4, text: "Em nenhum dos sítios referidos nas três hipóteses anteriores" }
+        ]
+    },
+    {
+        question: "Do ponto de vista de interferências em equipamentos eletrónicos, quais as influências indesejadas que deverão ser consideradas?",
+        answers: [
+            { id: 1, text: "Via entrada da antena" },
+            { id: 2, text: "Através de radiação direta sobre o emissor" },
+            { id: 3, text: "Através de outras ligações" },
+            { id: 4, text: "Todas as hipóteses anteriores estão corretas", correct: true }
+        ]
+    },
+    {
+        question: "Do ponto de vista de interferências em equipamentos eletrónicos, como se designa a capacidade que um equipamento tem de ser robusto à radiação direta que sobre ele poderá ser exercida?",
+        answers: [
+            { id: 1, text: "Imunidade", correct: true },
+            { id: 2, text: "Tolerância" },
+            { id: 3, text: "Resistência" },
+            { id: 4, text: "Robustez" }
+        ]
+    },
+    {
+        question: "Num cabo de alimentação de rede de três condutores o fio verde e amarelo é",
+        answers: [
+            { id: 1, text: "o neutro" },
+            { id: 2, text: "a fase" },
+            { id: 3, text: "a terra", correct: true },
+            { id: 4, text: "uma tensão DC" }
+        ]
+    },
+    {
+        question: "Quais os fatores que afetam a maior ou menor exposição da população a campos eletromagnéticos perto de uma estação de amador?",
+        answers: [
+            { id: 1, text: "Potência emitida" },
+            { id: 2, text: "Distância às antenas" },
+            { id: 3, text: "Diagrama de radiação das antenas" },
+            { id: 4, text: "Todas as respostas anteriores estão corretas", correct: true }
+        ]
+    },
+    {
+        question: "De acordo com a regulamentação em vigor, é obrigatória a sinalização das estações individuais de amador, no âmbito da proteção da população em geral a campos eletromagnéticos?",
+        answers: [
+            { id: 1, text: "Sim", correct: true },
+            { id: 2, text: "Não" },
+            { id: 3, text: "Só se emitirem em HF" },
+            { id: 4, text: "Só se emitirem acima de 1 GHz" }
+        ],
+        explanation: "As regras estabelecidas no capítulo III do presente diploma não se aplicam: (...)b) Às estações de radiocomunicações singulares afectas ao Serviço de Amador;"
+    },
 ];
 
 export default questions;
