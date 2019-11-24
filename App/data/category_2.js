@@ -1562,7 +1562,125 @@ const questions = [
             { id: 3, text: "Só se emitirem em HF" },
             { id: 4, text: "Só se emitirem acima de 1 GHz" }
         ],
-        explanation: "As regras estabelecidas no capítulo III do presente diploma não se aplicam: (...)b) Às estações de radiocomunicações singulares afectas ao Serviço de Amador;"
+        explanation: "As regras estabelecidas no capítulo III do presente diploma não se aplicam: (...)b) Às estações de radiocomunicações singulares afectas ao Serviço de Amador. Regras do capítulo III são relativas a identificação, o que significa que as normas de sinalização se aplicam para o Serviço de Amador"
+    },
+    {
+        question: "Qual a expressão usada em telefonia para sinal de perigo?",
+        answers: [
+            { id: 1, text: "HELP" },
+            { id: 2, text: "SOCORRO" },
+            { id: 3, text: "MAYDAY", correct: true },
+            { id: 4, text: "AJUDA" }
+        ]
+    },
+    {
+        question: "Qual o prefixo designado para as estações de uso comum das entidades com responsabilidade na proteção civil?",
+        answers: [
+            { id: 1, text: "CR6" },
+            { id: 2, text: "CT6" },
+            { id: 3, text: "CT0" },
+            { id: 4, text: "CR0", correct: true }
+        ]
+    },
+    {
+        question: "Não concordo com determinadas disposições regulamentares aplicáveis aos Serviços de Amador e de Amador por Satélite. O que é correto fazer?",
+        answers: [
+            { id: 1, text: "Não as respeitar" },
+            { id: 2, text: "Incentivar a que outros amadores não as respeitem" },
+            { id: 3, text: "Apresentar fundamentadamente a discordância à ANACOM, propondo alterações", correct: true },
+            { id: 4, text: "Recorrer a instâncias internacionais, no sentido destas entrarem em contacto com à ANACOM" }
+        ]
+    },
+    {
+        question: "Uma vizinha minha diz que de vez em quando tem interferências na receção de televisão e veio perguntar-me se não seria das minhas emissões. O que é correto fazer?",
+        answers: [
+            { id: 1, text: "Nada, pois eu estou a trabalhar nas faixas corretas e o problema deve ser da instalação de receção de televisão" },
+            { id: 2, text: "Investigar a situação e se for problema dela, caberá a ela a resolução do problema" },
+            { id: 3, text: "Investigar a situação e se se concluir que o problema é das minhas emissões, emitir às horas em que ela não vê televisão" },
+            { id: 4, text: "Investigar a situação e resolvê-la ou ajudá-la a resolver se o problema for da instalação de receção", correct: true }
+        ]
+    },
+    {
+        question: "Uma emissão fora de faixa",
+        answers: [
+            { id: 1, text: "é uma emissão numa frequência ou em frequências fora da largura de faixa necessária, mas na sua vizinhança imediata, originada no amplificador de saída do emissor" },
+            { id: 2, text: "é uma emissão numa frequência ou em frequências fora da largura de faixa necessária, mas na sua vizinhança imediata, devido a ruídos na alimentação do emissor" },
+            { id: 3, text: "é uma emissão numa frequência ou em frequências fora da largura de faixa necessária, mas na sua vizinhança imediata, resultante do processo de modulação", correct: true },
+            { id: 4, text: "é uma emissão numa frequência ou em frequências fora da largura de faixa necessária, mas na sua vizinhança imediata, originada por desaptação de impedância no cabo de alimentação da antena" }
+        ]
+    },
+    {
+        question: "Qual das faixas tem estatuto primário para o serviço de amador na Região 1?",
+        answers: [
+            { id: 1, text: "50 - 54 MHz" },
+            { id: 2, text: "144 - 146 MHz", correct: true },
+            { id: 3, text: "1240 - 1260 MHz" },
+            { id: 4, text: "5725 - 5830 MHz" }
+        ]
+    },
+    {
+        question: "Qual das seguintes afirmações é falsa?",
+        answers: [
+            { id: 1, text: "As potências máximas das emissões das estações de amador são fixadas pelas Administrações dos países signatários da Constituição e da Convenção da UIT", correct: true},
+            { id: 2, text: "As potências máximas das emissões das estações de amador são fixadas pelo Regulamento das Radiocomunicações da UIT" },
+            { id: 3, text: "Cabe às Administrações dos países signatários da Constituição e da Convenção da UIT, determinar se uma pessoa que quer ser amador tem as necessárias qualificações" },
+            { id: 4, text: "Durante as suas comunicações, as estações de amador devem transmitir o seu indicativo de chamada de acordo com o definido na regulamentação aplicável" }
+        ],
+        explanation: "Wikipedia: \"For example, the peak envelope power limits for the highest available license classes in a few selected countries are: 2.25 kW in Canada, 1.5 kW in the United States, 1.0 kW in Belgium, Luxembourg, Switzerland and New Zealand, 750 W in Germany, 500 W in Italy, 400 W in Australia, India and the United Kingdom, and 150 W in Oman.\""
+    },
+    {
+        question: "Qual dos documentos não é considerado habilitante para a utilização de estações de amador, quando em estadas temporárias em Portugal?",
+        answers: [
+            { id: 1, text: "\"Licença CEPT\" emitida por outra Administração que tenha adotado a Recomendação CEPT T/R 61-01" },
+            { id: 2, text: "\"Licença CEPT novice\", emitida por outra Administração que tenha adotado a Recomendação CEPT ECC/REC/(05)06" },
+            { id: 3, text: "Certificado de Operador de Estação de Radioamador (COER), das classes A e B, emitido pela Administração da República Federativa do Brasil" },
+            { id: 4, text: "Certificado internacional HAREC, nos termos da Recomendação CEPT T/R 61-02", correct: true }
+        ]
+    },
+    {
+        question: "Sempre que um amador estabeleça comunicações em Portugal ao abrigo de uma \"licença CEPT novice\" emitida por uma outra Administração, deve emitir o IC da sua estação de amador antecedido do prefixo",
+        answers: [
+            { id: 1, text: "\"CS7\" se estiver a operar numa estação de amador, situada na área geográfica POR", correct: true },
+            { id: 2, text: "\"CR8\" se estiver a operar numa estação de amador, situada na área geográfica AZR" },
+            { id: 3, text: "\"CQ9\" se estiver a operar numa estação de amador, situada na área geográfica MDR" },
+            { id: 4, text: "\"CT7\" se estiver a operar numa estação de amador, situada na área geográfica POR" }
+        ]
+    },
+    {
+        question: "A \"licença CEPT novice\", permite",
+        answers: [
+            { id: 1, text: "utilizar estações de amador em todos os países da CEPT" },
+            { id: 2, text: "utilizar estações de amador em todos os países membros da CEPT ou não, cuja Administração tenha adotado a Recomendação CEPT T/R 61-01;" },
+            { id: 3, text: "utilizar estações de amador nos países cuja Administração tenha adotado a Recomendação CEPT ECC/REC/(05)06", correct: true },
+            { id: 4, text: "utilizar estações de amador em todos os países da CEPT, nos Estados Unidos e na Austrália" }
+        ]
+    },
+    {
+        question: "Qual a potência de pico máxima permitida a um amador da categoria 2 que opere a frequência 14260 kHz?",
+        answers: [
+            { id: 1, text: "1500 W" },
+            { id: 2, text: "200 W", correct: true },
+            { id: 3, text: "750 W" },
+            { id: 4, text: "100 W" }
+        ]
+    },
+    {
+        question: "Se uma estação de amador interferir uma estação de pequena potência e de curto alcance na frequência 433,5 MHz, quem tem prioridade?",
+        answers: [
+            { id: 1, text: "A estação de pequena potência" },
+            { id: 2, text: "A estação de amador", correct: true },
+            { id: 3, text: "Nem uma nem outra" },
+            { id: 4, text: "A estação que emitir com a potência mais baixa" }
+        ]
+    },
+    {
+        question: "Qual das afirmações está correta?",
+        answers: [
+            { id: 1, text: "Um amador da categoria 2 poderá utilizar estações de outro amador de acordo com os privilégios da categoria 2" },
+            { id: 2, text: "Um amador da categoria 2 só pode usar a sua estação em modo de receção" },
+            { id: 3, text: "Um amador da categoria 2 poderá utilizar a estação de outro amador de acordo com os privilégios que este detém", correct: true },
+            { id: 4, text: "Para utilizar uma estação do serviço de amador um amador da categoria 2 precisa de uma licença de estação" }
+        ]
     },
 ];
 
