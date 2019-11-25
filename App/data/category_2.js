@@ -13,7 +13,7 @@ const questions = [
         ]
     },
     {
-        question: "Determinado circuito precisa ser alimentado com 60 V e 0,8 A. Dispondo-se de uma fonte de 300 V, deve- se colocar em série com o circuito uma resistência de",
+        question: "Determinado circuito precisa ser alimentado com 60 V e 0,8 A. Dispondo-se de uma fonte de 300 V, deve-se colocar em série com o circuito uma resistência de",
         answers: [
             { id: 1, text: "12 Ohm" },
             { id: 2, text: "60 Ohm" } ,
@@ -432,9 +432,9 @@ const questions = [
             { id: 1, text: "Modulação por pulsos codificados" },
             { id: 2, text: "Modulação de fase" },
             { id: 3, text: "Modulação de frequência" },
-            // Modulates the amplitude of the carrier thus affect signal power
             { id: 4, text: "Modulação de amplitude", correct: true }
-        ]
+        ],
+        explanation: "Modula a amplitude da portadora logo faz variar a potência do sinal"
     },
     {
         question: "Qual das seguintes emissões de fonia usa uma largura de banda mais estreita?",
