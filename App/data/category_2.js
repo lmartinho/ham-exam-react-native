@@ -231,10 +231,10 @@ const questions = [
     {
         question: "Qual das afirmações está correta?",
         answers: [
-            { id: 1, text: "Uma onda quadrada pode ser representada por um conjunto de ondas sinusoidais", correct: true },
+            { id: 1, text: "Uma onda quadrada pode ser representada por um conjunto de ondas sinusoidais" },
             { id: 2, text: "Obtém-se a onda sinusoidal fundamental de uma onda quadrada, aplicando um filtro passa-baixo" },
             { id: 3, text: "As ondas quadradas são fundamentais na representação e processamento dos sinais digitais" },
-            { id: 4, text: "Todas as respostas anteriores estão corretas" }
+            { id: 4, text: "Todas as respostas anteriores estão corretas", correct: true }
         ]
     },
     {

@@ -2,7 +2,8 @@
 
 React native app to get ready for my Category 2 [Ham Operator License exam](https://www.anacom.pt/render.jsp?categoryId=384682) in Portugal.
 
-I'm currently a Category 3 Ham Operator - callsign CR7ARV - which does not have broadcast privileges.
+I'm now a Category 2 Amateur Radio Operator - callsign CS7ARV.
+~~I'm currently a Category 3 Ham Operator - callsign CR7ARV - which does not have broadcast privileges.~~
 
 This app starts from [ReactNativeSchool](https://github.com/ReactNativeSchool)'s [react-native-quiz app](https://github.com/ReactNativeSchool/react-native-quiz) app, and packages the sample questions provided by ANACOM.
 
