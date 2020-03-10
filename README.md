@@ -21,6 +21,6 @@ https://www.anacom.pt/render.jsp?categoryId=384682
 
 ### DISCLAIMER:
 
-I provide no warranty on the accuratecy or correctness of the questions, answers, and, especially, the solutions.
+I provide no warranty on the accuracy or correctness of the questions, answers, and, especially, the solutions.
 While questions and answers are sourced from ANACOM, the solutions are mine and have not been verified. I tried my best, and will undergo the exame assuming those are the right answers.
 
