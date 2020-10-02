@@ -20,6 +20,16 @@ const questions = [
             { id: 3, text: "300 Ohm" },
             { id: 4, text: "1,2 kilo Ohm" }
         ]
+    },
+    {
+        question: "Qual a sequência de símbolos usados em telegrafia para sinal de perigo?",
+        answers: [
+            { id: 1, text: "...---...", correct: true },
+            { id: 2, text: "---...---" },
+            { id: 3, text: "..----.." },
+            { id: 4, text: ".-.-.-" }
+        ],
+        source: "Do meu exame de categoria 2"
     }
 ];
 

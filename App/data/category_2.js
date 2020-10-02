@@ -1619,6 +1619,16 @@ const questions = [
         ]
     },
     {
+        question: "Qual das faixas não tem estatuto primário para o serviço de amador em Portugal?",
+        answers: [
+            { id: 1, text: "438 - 440 MHz" },
+            { id: 2, text: "1240 - 1260 MHz", correct: true },
+            { id: 3, text: "7100 - 7200 kHz" },
+            { id: 4, text: "24 - 24,05 GHz" }
+        ],
+        explanation: "Exame CS7ARV"
+    },
+    {
         question: "Qual das seguintes afirmações é falsa?",
         answers: [
             { id: 1, text: "As potências máximas das emissões das estações de amador são fixadas pelas Administrações dos países signatários da Constituição e da Convenção da UIT", correct: true},
@@ -1681,7 +1691,7 @@ const questions = [
             { id: 3, text: "Um amador da categoria 2 poderá utilizar a estação de outro amador de acordo com os privilégios que este detém", correct: true },
             { id: 4, text: "Para utilizar uma estação do serviço de amador um amador da categoria 2 precisa de uma licença de estação" }
         ]
-    },
+    }
 ];
 
 export default questions;
